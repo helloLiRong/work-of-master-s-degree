@@ -1,0 +1,520 @@
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2018.1.9)  15 JAN 2018 10:42
+entering extended mode
+**F:/研究生毕设/work-of-master-s-degree/draft/20180109/dragft.tex
+(F:/研究生毕设/work-of-master-s-degree/draft/20180109/dragft.tex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for loaded.
+("D:\Program Files (x86)\CTEX\MiKTeX\tex\latex\base\article.cls"
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+("D:\Program Files (x86)\CTEX\MiKTeX\tex\latex\base\size11.clo"
+File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("D:\Program Files (x86)\CTEX\MiKTeX\tex\latex\cjk\CJK.sty"
+Package: CJK 2008/12/29 4.8.2
+
+("D:\Program Files (x86)\CTEX\MiKTeX\tex\latex\cjk\mule\MULEenc.sty"
+Package: MULEenc 2008/12/29 4.8.2
+)
+("D:\Program Files (x86)\CTEX\MiKTeX\tex\latex\cjk\CJK.enc"
+File: CJK.enc 2008/12/29 4.8.2
+)
+LaTeX Info: Redefining \selectfont on input line 756.
+\CJK@indent=\box26
+)
+("D:\Program Files (x86)\CTEX\MiKTeX\tex\latex\fancyhdr\fancyhdr.sty"
+\fancy@headwidth=\skip43
+\f@ncyO@elh=\skip44
+\f@ncyO@erh=\skip45
+\f@ncyO@olh=\skip46
+\f@ncyO@orh=\skip47
+\f@ncyO@elf=\skip48
+\f@ncyO@erf=\skip49
+\f@ncyO@olf=\skip50
+\f@ncyO@orf=\skip51
+)
+("D:\Program Files (x86)\CTEX\MiKTeX\tex\latex\ams\math\amsmath.sty"
+Package: amsmath 2000/07/18 v2.13 AMS math features
+\@mathmargin=\skip52
+
+For additional information on amsmath, use the `?' option.
+("D:\Program Files (x86)\CTEX\MiKTeX\tex\latex\ams\math\amstext.sty"
+Package: amstext 2000/06/29 v2.01
+
+("D:\Program Files (x86)\CTEX\MiKTeX\tex\latex\ams\math\amsgen.sty"
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks14
+\ex@=\dimen103
+))
+("D:\Program Files (x86)\CTEX\MiKTeX\tex\latex\ams\math\amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen104
+)
+("D:\Program Files (x86)\CTEX\MiKTeX\tex\latex\ams\math\amsopn.sty"
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count87
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count88
+\leftroot@=\count89
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count90
+\DOTSCASE@=\count91
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
+\Mathstrutbox@=\box27
+\strutbox@=\box28
+\big@size=\dimen105
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+\macc@depth=\count92
+\c@MaxMatrixCols=\count93
+\dotsspace@=\muskip10
+\c@parentequation=\count94
+\dspbrk@lvl=\count95
+\tag@help=\toks15
+\row@=\count96
+\column@=\count97
+\maxfields@=\count98
+\andhelp@=\toks16
+\eqnshift@=\dimen106
+\alignsep@=\dimen107
+\tagshift@=\dimen108
+\tagwidth@=\dimen109
+\totwidth@=\dimen110
+\lineht@=\dimen111
+\@envbody=\toks17
+\multlinegap=\skip53
+\multlinetaggap=\skip54
+\mathdisplay@stack=\toks18
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
+)
+("D:\Program Files (x86)\CTEX\MiKTeX\tex\latex\amsfonts\amsfonts.sty"
+Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
+)
+("D:\Program Files (x86)\CTEX\MiKTeX\tex\latex\amsfonts\amssymb.sty"
+Package: amssymb 2009/06/22 v3.00
+)
+("D:\Program Files (x86)\CTEX\MiKTeX\tex\latex\graphics\graphicx.sty"
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+("D:\Program Files (x86)\CTEX\MiKTeX\tex\latex\graphics\keyval.sty"
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks19
+)
+("D:\Program Files (x86)\CTEX\MiKTeX\tex\latex\graphics\graphics.sty"
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+("D:\Program Files (x86)\CTEX\MiKTeX\tex\latex\graphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+("D:\Program Files (x86)\CTEX\MiKTeX\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+("D:\Program Files (x86)\CTEX\MiKTeX\tex\latex\pdftex-def\pdftex.def"
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+("D:\Program Files (x86)\CTEX\MiKTeX\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/message (HO)
+)
+("D:\Program Files (x86)\CTEX\MiKTeX\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2011/04/18 v1.20 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count99
+))
+\Gin@req@height=\dimen112
+\Gin@req@width=\dimen113
+)
+("D:\Program Files (x86)\CTEX\MiKTeX\tex\latex\subfigure\subfigure.sty"
+Package: subfigure 2002/07/30 v2.1.4 subfigure package
+\subfigtopskip=\skip55
+\subfigcapskip=\skip56
+\subfigcaptopadj=\dimen114
+\subfigbottomskip=\skip57
+\subfigcapmargin=\dimen115
+\subfiglabelskip=\skip58
+\c@subfigure=\count100
+\c@lofdepth=\count101
+\c@subtable=\count102
+\c@lotdepth=\count103
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+("D:\Program Files (x86)\CTEX\MiKTeX\tex\latex\subfigure\subfigure.cfg")
+\subfig@top=\skip59
+\subfig@bottom=\skip60
+)
+("D:\Program Files (x86)\CTEX\MiKTeX\tex\latex\tools\indentfirst.sty"
+Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
+)
+("D:\Program Files (x86)\CTEX\MiKTeX\tex\latex\tools\bm.sty"
+Package: bm 2004/02/26 v1.1c Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup6
+\symboldletters=\mathgroup7
+\symboldsymbols=\mathgroup8
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 138.
+LaTeX Info: Redefining \bm on input line 204.
+)
+("D:\Program Files (x86)\CTEX\MiKTeX\tex\latex\tools\multicol.sty"
+Package: multicol 2011/06/27 v1.7a multicolumn formatting (FMi)
+\c@tracingmulticols=\count104
+\mult@box=\box29
+\multicol@leftmargin=\dimen116
+\c@unbalance=\count105
+\c@collectmore=\count106
+\doublecol@number=\count107
+\multicoltolerance=\count108
+\multicolpretolerance=\count109
+\full@width=\dimen117
+\page@free=\dimen118
+\premulticols=\dimen119
+\postmulticols=\dimen120
+\multicolsep=\skip61
+\multicolbaselineskip=\skip62
+\partial@page=\box30
+\last@line=\box31
+\mult@rightbox=\box32
+\mult@grightbox=\box33
+\mult@gfirstbox=\box34
+\mult@firstbox=\box35
+\@tempa=\box36
+\@tempa=\box37
+\@tempa=\box38
+\@tempa=\box39
+\@tempa=\box40
+\@tempa=\box41
+\@tempa=\box42
+\@tempa=\box43
+\@tempa=\box44
+\@tempa=\box45
+\@tempa=\box46
+\@tempa=\box47
+\@tempa=\box48
+\@tempa=\box49
+\@tempa=\box50
+\@tempa=\box51
+\@tempa=\box52
+\c@columnbadness=\count110
+\c@finalcolumnbadness=\count111
+\last@try=\dimen121
+\multicolovershoot=\dimen122
+\multicolundershoot=\dimen123
+\mult@nat@firstbox=\box53
+\colbreak@box=\box54
+\multicol@sort@counter=\count112
+)
+("D:\Program Files (x86)\CTEX\MiKTeX\tex\latex\picins\picins.sty"
+Option `picins' Version 3.0 Sep. 1992, TH Darmstadt/HRZ
+\@BILD=\box55
+\@TEXT=\box56
+\d@breite=\dimen124
+\d@hoehe=\dimen125
+\d@xoff=\dimen126
+\d@yoff=\dimen127
+\d@shad=\dimen128
+\d@dash=\dimen129
+\d@boxl=\dimen130
+\d@pichskip=\dimen131
+\d@tmp=\dimen132
+\d@tmpa=\dimen133
+\d@bskip=\dimen134
+\hsiz@=\dimen135
+\p@getot@l=\dimen136
+\c@breite=\count113
+\c@hoehe=\count114
+\c@xoff=\count115
+\c@yoff=\count116
+\c@pos=\count117
+\c@shad=\count118
+\c@dash=\count119
+\c@boxl=\count120
+\c@zeilen=\count121
+\@changemode=\count122
+\c@piccaption=\count123
+\c@piccaptionpos=\count124
+\c@picpos=\count125
+\c@whole=\count126
+\c@half=\count127
+\c@tmp=\count128
+\c@tmpa=\count129
+\c@tmpb=\count130
+\c@tmpc=\count131
+\c@tmpd=\count132
+\d@leftskip=\skip63
+\ptoti=\dimen137
+\ptotii=\dimen138
+\env@box=\box57
+\d@envdp=\dimen139
+\c@hsize=\count133
+\c@envdp=\count134
+\d@envb=\dimen140
+)
+("D:\Program Files (x86)\CTEX\MiKTeX\tex\latex\abstract\abstract.sty"
+Package: abstract 2009/06/08 v1.2a configurable abstracts
+\abstitleskip=\skip64
+\absleftindent=\skip65
+\absrightindent=\skip66
+\absparindent=\skip67
+\absparsep=\skip68
+)
+("D:\Program Files (x86)\CTEX\MiKTeX\tex\latex\cjk\standard.bdg"
+File: standard.bdg 2008/12/29 4.8.2
+)
+("D:\Program Files (x86)\CTEX\MiKTeX\tex\latex\cjk\extended.enc"
+File: extended.enc 2008/12/29 4.8.2
+)
+("D:\Program Files (x86)\CTEX\MiKTeX\tex\latex\cjk\extended.chr"
+File: extended.chr 2008/12/29 4.8.2
+)
+(F:\研究生毕设\work-of-master-s-degree\draft\20180109\dragft.aux)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for C05/song/m/n on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for C09/song/m/n on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for C10/song/m/n on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for C20/song/m/n on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for C19/song/m/n on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for C40/song/m/n on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for C42/song/m/n on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for C43/song/m/n on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for C50/song/m/n on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for C52/song/m/n on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for C49/song/m/n on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for C60/mj/m/n on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for C61/mj/m/n on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for C63/mj/m/n on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for C64/mj/m/n on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for C65/mj/m/n on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for C70/song/m/n on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for C31/song/m/n on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for C32/song/m/n on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for C33/song/m/n on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for C34/song/m/n on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for C35/song/m/n on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for C36/song/m/n on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+
+("D:\Program Files (x86)\CTEX\MiKTeX\tex\context\base\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count135
+\scratchdimen=\dimen141
+\scratchbox=\box58
+\nofMPsegments=\count136
+\nofMParguments=\count137
+\everyMPshowfont=\toks20
+\MPscratchCnt=\count138
+\MPscratchDim=\dimen142
+\MPnumerator=\count139
+\makeMPintoPDFobject=\count140
+\everyMPtoPDFconversion=\toks21
+) ("D:\Program Files (x86)\CTEX\MiKTeX\tex\latex\cjk\GB\GB.cpx"
+File: GB.cap 2003/05/18 4.5.2for Standard LaTeX document class
+)
+LaTeX Font Info:    Try loading font information for C19+song on input line 113
+.
+
+("D:\Program Files (x86)\CTEX\CTeX\tex\latex\CJK\GB\c19song.fd"
+File: c19song.fd 2009/09/23 4.8.2
+)
+LaTeX Font Info:    Try loading font information for U+msa on input line 113.
+
+("D:\Program Files (x86)\CTEX\MiKTeX\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2009/06/22 v3.00 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 113.
+
+("D:\Program Files (x86)\CTEX\MiKTeX\tex\latex\amsfonts\umsb.fd"
+File: umsb.fd 2009/06/22 v3.00 AMS symbols B
+)
+LaTeX Font Info:    Try loading font information for C19+hei on input line 129.
+
+
+("D:\Program Files (x86)\CTEX\CTeX\tex\latex\CJK\GB\c19hei.fd"
+File: c19hei.fd 2009/09/23 4.8.2
+)
+LaTeX Font Info:    Try loading font information for C19+kai on input line 129.
+
+
+("D:\Program Files (x86)\CTEX\CTeX\tex\latex\CJK\GB\c19kai.fd"
+File: c19kai.fd 2009/09/23 4.8.2
+)
+<Pantao.jpg, id=1, 90.5784pt x 52.5162pt>
+File: Pantao.jpg Graphic file (type jpg)
+ <use Pantao.jpg>
+Package pdftex.def Info: Pantao.jpg used on input line 176.
+(pdftex.def)             Requested size: 341.43306pt x 197.9922pt.
+
+
+LaTeX Warning: Citation `Wu' on page 1 undefined on input line 186.
+
+
+LaTeX Warning: Citation `Xuan' on page 1 undefined on input line 186.
+
+
+LaTeX Warning: Citation `Wu' on page 1 undefined on input line 188.
+
+
+LaTeX Warning: Citation `Xuan' on page 1 undefined on input line 188.
+
+
+LaTeX Warning: Citation `Wu' on page 1 undefined on input line 190.
+
+
+LaTeX Warning: Citation `Xuan' on page 1 undefined on input line 190.
+
+(F:\研究生毕设\work-of-master-s-degree\draft\20180109\dragft.bbl
+
+Package multicol Warning: I moved some lines to the next page.
+(multicol)                Footnotes on page 1 might be wrong on input line 10.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 21.32901pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[1{D:/Program Files (x86)/CTEX/UserData/pdftex/config/pdftex.map{Unicode.sfd}{U
+GBK.sfd}}
+
+]) [2 <F:/研究生毕设/work-of-master-s-degree/draft/20180109/Pantao.jpg>] (
+F:\研究生毕设\work-of-master-s-degree\draft\20180109\dragft.aux)
+
+LaTeX Warning: There were undefined references.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 4295 strings out of 495354
+ 54646 string characters out of 3182740
+ 120280 words of memory out of 3000000
+ 7308 multiletter control sequences out of 15000+200000
+ 60828 words of font info for 213 fonts, out of 3000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 31i,10n,43p,428b,848s stack positions out of 5000i,500n,10000p,200000b,50000s
+<D:/Program Files (x86)/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><D:/Progr
+am Files (x86)/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><D:/Program Files (x
+86)/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><D:/Program Files (x86)/CTEX/CT
+eX/fonts/truetype/chinese/simsun.ttf><D:/Program Files (x86)/CTEX/CTeX/fonts/tr
+uetype/chinese/simsun.ttf><D:/Program Files (x86)/CTEX/CTeX/fonts/truetype/chin
+ese/simsun.ttf><D:/Program Files (x86)/CTEX/CTeX/fonts/truetype/chinese/simsun.
+ttf><D:/Program Files (x86)/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/Win
+dows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf
+><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/si
+mhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/
+Fonts/simhei.ttf><C:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/simkai.ttf><C:/
+Windows/Fonts/simkai.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.
+ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts
+/simkai.ttf><C:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/simkai.ttf><C:/Windo
+ws/Fonts/simkai.ttf><C:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/simkai.ttf><
+C:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/simk
+ai.ttf><C:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/simkai.ttf><C:/Windows/Fo
+nts/simkai.ttf><C:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/simkai.ttf><C:/Wi
+ndows/Fonts/simkai.ttf><C:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/simkai.tt
+f><C:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/s
+imkai.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><D:/Program
+ Files (x86)/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><D:/Program Files (x86
+)/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><D:/Program Files (x86)/CTEX/CTeX
+/fonts/truetype/chinese/simsun.ttf><D:/Program Files (x86)/CTEX/CTeX/fonts/true
+type/chinese/simsun.ttf><D:/Program Files (x86)/CTEX/CTeX/fonts/truetype/chines
+e/simsun.ttf><D:/Program Files (x86)/CTEX/CTeX/fonts/truetype/chinese/simsun.tt
+f><D:/Program Files (x86)/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><D:/Progr
+am Files (x86)/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><D:/Program Files (x
+86)/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><D:/Program Files (x86)/CTEX/CT
+eX/fonts/truetype/chinese/simsun.ttf><D:/Program Files (x86)/CTEX/CTeX/fonts/tr
+uetype/chinese/simsun.ttf><D:/Program Files (x86)/CTEX/CTeX/fonts/truetype/chin
+ese/simsun.ttf><D:/Program Files (x86)/CTEX/CTeX/fonts/truetype/chinese/simsun.
+ttf><D:/Program Files (x86)/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><D:/Pro
+gram Files (x86)/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><D:/Program Files 
+(x86)/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><D:/Program Files (x86)/CTEX/
+CTeX/fonts/truetype/chinese/simsun.ttf><D:/Program Files (x86)/CTEX/CTeX/fonts/
+truetype/chinese/simsun.ttf><D:/Program Files (x86)/CTEX/CTeX/fonts/truetype/ch
+inese/simsun.ttf><D:/Program Files (x86)/CTEX/CTeX/fonts/truetype/chinese/simsu
+n.ttf><D:/Program Files (x86)/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><D:/P
+rogram Files (x86)/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><D:/Program File
+s (x86)/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><D:/Program Files (x86)/CTE
+X/CTeX/fonts/truetype/chinese/simsun.ttf><D:/Program Files (x86)/CTEX/MiKTeX/fo
+nts/type1/public/amsfonts/cm/cmbx10.pfb><D:/Program Files (x86)/CTEX/MiKTeX/fon
+ts/type1/public/amsfonts/cm/cmbx12.pfb><D:/Program Files (x86)/CTEX/MiKTeX/font
+s/type1/public/amsfonts/cm/cmbx8.pfb><D:/Program Files (x86)/CTEX/MiKTeX/fonts/
+type1/public/amsfonts/cm/cmr10.pfb><D:/Program Files (x86)/CTEX/MiKTeX/fonts/ty
+pe1/public/amsfonts/cm/cmr8.pfb><D:/Program Files (x86)/CTEX/MiKTeX/fonts/type1
+/public/amsfonts/cm/cmr9.pfb><D:/Program Files (x86)/CTEX/MiKTeX/fonts/type1/pu
+blic/amsfonts/cm/cmsy10.pfb><D:/Program Files (x86)/CTEX/MiKTeX/fonts/type1/pub
+lic/amsfonts/cm/cmsy6.pfb><D:/Program Files (x86)/CTEX/MiKTeX/fonts/type1/publi
+c/amsfonts/cm/cmsy9.pfb><D:/Program Files (x86)/CTEX/MiKTeX/fonts/type1/public/
+amsfonts/cm/cmti10.pfb>
+Output written on dragft.pdf (2 pages, 500562 bytes).
+PDF statistics:
+ 330 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+

@@ -1,0 +1,54 @@
+\begin{thebibliography}{1}
+
+\bibitem{amodei2016deep}
+Dario Amodei, Sundaram Ananthanarayanan, Rishita Anubhai, Jingliang Bai, Eric
+  Battenberg, Carl Case, Jared Casper, Bryan Catanzaro, Qiang Cheng, Guoliang
+  Chen, et~al.
+\newblock Deep speech 2: End-to-end speech recognition in english and mandarin.
+\newblock In {\em International Conference on Machine Learning}, pages
+  173--182, 2016.
+
+\bibitem{angluin1983inductive}
+Dana Angluin and Carl~H Smith.
+\newblock Inductive inference: Theory and methods.
+\newblock {\em ACM Computing Surveys (CSUR)}, 15(3):237--269, 1983.
+
+\bibitem{bahdanau2014neural}
+Dzmitry Bahdanau, Kyunghyun Cho, and Yoshua Bengio.
+\newblock Neural machine translation by jointly learning to align and
+  translate.
+\newblock {\em arXiv preprint arXiv:1409.0473}, 2014.
+
+\bibitem{gold1967language}
+E~Mark Gold.
+\newblock Language identification in the limit.
+\newblock {\em Information and control}, 10(5):447--474, 1967.
+
+\bibitem{graves2014neural}
+Alex Graves, Greg Wayne, and Ivo Danihelka.
+\newblock Neural turing machines.
+\newblock {\em arXiv preprint arXiv:1410.5401}, 2014.
+
+\bibitem{joulin2015inferring}
+Armand Joulin and Tomas Mikolov.
+\newblock Inferring algorithmic patterns with stack-augmented recurrent nets.
+\newblock In {\em Advances in neural information processing systems}, pages
+  190--198, 2015.
+
+\bibitem{kaiser2015neural}
+{\L}ukasz Kaiser and Ilya Sutskever.
+\newblock Neural gpus learn algorithms.
+\newblock {\em arXiv preprint arXiv:1511.08228}, 2015.
+
+\bibitem{krizhevsky2012imagenet}
+Alex Krizhevsky, Ilya Sutskever, and Geoffrey~E Hinton.
+\newblock Imagenet classification with deep convolutional neural networks.
+\newblock In {\em Advances in neural information processing systems}, pages
+  1097--1105, 2012.
+
+\bibitem{kurach2015neural}
+Karol Kurach, Marcin Andrychowicz, and Ilya Sutskever.
+\newblock Neural random-access machines.
+\newblock {\em arXiv preprint arXiv:1511.06392}, 2015.
+
+\end{thebibliography}
