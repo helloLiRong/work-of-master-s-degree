@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2018.1.9)  15 JAN 2018 10:42
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2018.1.9)  16 JAN 2018 22:52
 entering extended mode
 **F:/研究生毕设/work-of-master-s-degree/draft/20180109/dragft.tex
 (F:/研究生毕设/work-of-master-s-degree/draft/20180109/dragft.tex
@@ -411,26 +411,31 @@ File: c19kai.fd 2009/09/23 4.8.2
 <Pantao.jpg, id=1, 90.5784pt x 52.5162pt>
 File: Pantao.jpg Graphic file (type jpg)
  <use Pantao.jpg>
-Package pdftex.def Info: Pantao.jpg used on input line 176.
+Package pdftex.def Info: Pantao.jpg used on input line 181.
 (pdftex.def)             Requested size: 341.43306pt x 197.9922pt.
 
-
-LaTeX Warning: Citation `Wu' on page 1 undefined on input line 186.
-
-
-LaTeX Warning: Citation `Xuan' on page 1 undefined on input line 186.
-
-
-LaTeX Warning: Citation `Wu' on page 1 undefined on input line 188.
-
-
-LaTeX Warning: Citation `Xuan' on page 1 undefined on input line 188.
+Underfull \hbox (badness 10000) in paragraph at lines 186--188
+[]\C19/song/m/n/10.95/37 � \C19/song/m/n/10.95/47 \OT1/cmr/m/n/10.95 neural ra
+ndom-access net-work-s \C19/song/m/n/10.95/37 �
+ []
 
 
 LaTeX Warning: Citation `Wu' on page 1 undefined on input line 190.
 
 
 LaTeX Warning: Citation `Xuan' on page 1 undefined on input line 190.
+
+
+LaTeX Warning: Citation `Wu' on page 1 undefined on input line 192.
+
+
+LaTeX Warning: Citation `Xuan' on page 1 undefined on input line 192.
+
+
+LaTeX Warning: Citation `Wu' on page 1 undefined on input line 196.
+
+
+LaTeX Warning: Citation `Xuan' on page 1 undefined on input line 196.
 
 (F:\研究生毕设\work-of-master-s-degree\draft\20180109\dragft.bbl
 
@@ -453,10 +458,10 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 4295 strings out of 495354
- 54646 string characters out of 3182740
- 120280 words of memory out of 3000000
- 7308 multiletter control sequences out of 15000+200000
+ 4321 strings out of 495354
+ 55180 string characters out of 3182740
+ 122280 words of memory out of 3000000
+ 7334 multiletter control sequences out of 15000+200000
  60828 words of font info for 213 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
  31i,10n,43p,428b,848s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -512,7 +517,7 @@ blic/amsfonts/cm/cmsy10.pfb><D:/Program Files (x86)/CTEX/MiKTeX/fonts/type1/pub
 lic/amsfonts/cm/cmsy6.pfb><D:/Program Files (x86)/CTEX/MiKTeX/fonts/type1/publi
 c/amsfonts/cm/cmsy9.pfb><D:/Program Files (x86)/CTEX/MiKTeX/fonts/type1/public/
 amsfonts/cm/cmti10.pfb>
-Output written on dragft.pdf (2 pages, 500562 bytes).
+Output written on dragft.pdf (2 pages, 508611 bytes).
 PDF statistics:
  330 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

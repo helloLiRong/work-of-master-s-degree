@@ -169,24 +169,34 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %  调整section名称与正文之间的距离
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+人工智能的一个目标是人类不但通过编程使计算机完成任务，而且可以通过教学使计算机学会如何去完成任务。近年来，一些研究者的工作向着这一目标迈出了重要的一步。这些工作\cite{graves2014neural, joulin2015inferring, kaiser2015neural, kurach2015neural} 利用外部记忆模块增强神经网络的能力，使神经网络学习到算法，比如复制，排序等。
+
+在训练的过程中，我们发现模型很难收敛，因此我们使用了课程学习来简化问题。课程学习的策略是：……
+
 深度学习在许多任务中都已经取得了很好的效果，例如机器视觉\cite{krizhevsky2012imagenet}，语音识别\cite{amodei2016deep}，自然语言处理\cite{bahdanau2014neural}等。但仍有一些任务，一直没有取得关键性的效果。算法学习任务（）是其中比较有趣的一种。这个任务可以追溯到\cite{gold1967language, angluin1983inductive}, 但至今还远未取得较好的结果。
 将深度学习应用该任务之后，已经有了显著的突破。有一些结构已经有能力学会简单的算法，比如排序，加法，乘法等。
+
+\cite{vapnik2013nature}证明了只要训练数据和测试数据来自同一分布，并且训练数据的数量多余参数数量，那么最小化训练误差就能保证在模型在测试集上可以取得理想的效果。这个性质在实践中非常有用，并且已经在很多实际应用中被证明。
+
+The phenomenon of generalization to inputs that are outside the training distribution is poorly understood. The space of problems for which such generalization is possible has not been identified, and a detailed understanding of the causes of such generalization are missing as well. Given that the test inputs do not come from the training data distribution, we do not yet have a formal reason to believe that such out-of-distribution generalization should succeed.
 
 \begin{figure*}
 \centering
 \includegraphics[width=12cm]{Pantao.jpg}
 \caption{王母娘娘寿筵上的蟠桃}\label{fig2}
 \end{figure*}
-引言
+
 \section{相关工作}
-人工智能的一个目标是人类不但通过编程使计算机完成任务，而且可以通过教学使计算机学会如何去完成任务。近年来，一些研究者的工作向着这一目标迈出了重要的一步。这些工作\cite{graves2014neural, joulin2015inferring, kaiser2015neural, kurach2015neural} 利用外部记忆模块增强神经网络的能力，使神经网络学习到算法，比如复制，排序等。
+参考neural random-access networks
+参考Hierarchical Attentive Memory
 
-在训练的过程中，我们发现模型很难收敛，因此我们使用了课程学习来简化问题。课程学习的策略是：……
-
+这些研究的目的是根据算法的输入和输出数据生成算法的原代码。
 \section{模型}
 文献\supercite{Wu,Xuan}中提到: 模型
 \section{实验}
 文献\supercite{Wu,Xuan}中提到: 实验
+HAM提到只要有一个bit错了，就认为整个输出序列错了
+比较部分也可以参考HAM的内容
 \section{结论}
 文献\supercite{Wu,Xuan}中提到: 结论
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
