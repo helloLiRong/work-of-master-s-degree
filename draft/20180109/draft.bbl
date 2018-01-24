@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{amodei2016deep}
 Dario Amodei, Sundaram Ananthanarayanan, Rishita Anubhai, Jingliang Bai, Eric
@@ -29,6 +29,20 @@ Alex Graves, Greg Wayne, and Ivo Danihelka.
 \newblock Neural turing machines.
 \newblock {\em arXiv preprint arXiv:1410.5401}, 2014.
 
+\bibitem{graves2016hybrid}
+Alex Graves, Greg Wayne, Malcolm Reynolds, Tim Harley, Ivo Danihelka, Agnieszka
+  Grabska-Barwi{\'n}ska, Sergio~G{\'o}mez Colmenarejo, Edward Grefenstette,
+  Tiago Ramalho, John Agapiou, et~al.
+\newblock Hybrid computing using a neural network with dynamic external memory.
+\newblock {\em Nature}, 538(7626):471--476, 2016.
+
+\bibitem{gulwani2010dimensions}
+Sumit Gulwani.
+\newblock Dimensions in program synthesis.
+\newblock In {\em Proceedings of the 12th international ACM SIGPLAN symposium
+  on Principles and practice of declarative programming}, pages 13--24. ACM,
+  2010.
+
 \bibitem{joulin2015inferring}
 Armand Joulin and Tomas Mikolov.
 \newblock Inferring algorithmic patterns with stack-augmented recurrent nets.
@@ -40,6 +54,16 @@ Armand Joulin and Tomas Mikolov.
 \newblock Neural gpus learn algorithms.
 \newblock {\em arXiv preprint arXiv:1511.08228}, 2015.
 
+\bibitem{kalchbrenner2015grid}
+Nal Kalchbrenner, Ivo Danihelka, and Alex Graves.
+\newblock Grid long short-term memory.
+\newblock {\em arXiv preprint arXiv:1507.01526}, 2015.
+
+\bibitem{kitzelmann2009inductive}
+Emanuel Kitzelmann.
+\newblock Inductive programming: A survey of program synthesis techniques.
+\newblock In {\em AAIP}, pages 50--73. Springer, 2009.
+
 \bibitem{krizhevsky2012imagenet}
 Alex Krizhevsky, Ilya Sutskever, and Geoffrey~E Hinton.
 \newblock Imagenet classification with deep convolutional neural networks.
@@ -50,5 +74,15 @@ Alex Krizhevsky, Ilya Sutskever, and Geoffrey~E Hinton.
 Karol Kurach, Marcin Andrychowicz, and Ilya Sutskever.
 \newblock Neural random-access machines.
 \newblock {\em arXiv preprint arXiv:1511.06392}, 2015.
+
+\bibitem{vapnik2013nature}
+Vladimir Vapnik.
+\newblock {\em The nature of statistical learning theory}.
+\newblock Springer science \& business media, 2013.
+
+\bibitem{zaremba2015reinforcement}
+Wojciech Zaremba and Ilya Sutskever.
+\newblock Reinforcement learning neural turing machines.
+\newblock {\em arXiv preprint arXiv:1505.00521}, 419, 2015.
 
 \end{thebibliography}
