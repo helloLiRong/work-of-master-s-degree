@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2018.1.9)  24 JAN 2018 20:20
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2018.1.9)  25 JAN 2018 21:21
 entering extended mode
 **F:/研究生毕设/work-of-master-s-degree/draft/20180109/draft.tex
 (F:/研究生毕设/work-of-master-s-degree/draft/20180109/draft.tex
@@ -408,12 +408,6 @@ LaTeX Font Info:    Try loading font information for C19+kai on input line 129.
 ("D:\Program Files (x86)\CTEX\CTeX\tex\latex\CJK\GB\c19kai.fd"
 File: c19kai.fd 2009/09/23 4.8.2
 )
-<Pantao.jpg, id=1, 90.5784pt x 52.5162pt>
-File: Pantao.jpg Graphic file (type jpg)
- <use Pantao.jpg>
-Package pdftex.def Info: Pantao.jpg used on input line 185.
-(pdftex.def)             Requested size: 341.43306pt x 197.9922pt.
-
 
 Package multicol Warning: I moved some lines to the next page.
 (multicol)                Footnotes on page 1 might be wrong on input line 191.
@@ -430,38 +424,37 @@ GBK.sfd}}
 
 ]
 
-LaTeX Warning: Citation `Wu' on page 2 undefined on input line 203.
+LaTeX Warning: Citation `Wu' on page 2 undefined on input line 204.
 
 
-LaTeX Warning: Citation `Xuan' on page 2 undefined on input line 203.
+LaTeX Warning: Citation `Xuan' on page 2 undefined on input line 204.
 
 
-LaTeX Warning: Citation `Wu' on page 2 undefined on input line 205.
+LaTeX Warning: Citation `Wu' on page 2 undefined on input line 206.
 
 
-LaTeX Warning: Citation `Xuan' on page 2 undefined on input line 205.
+LaTeX Warning: Citation `Xuan' on page 2 undefined on input line 206.
 
 
-LaTeX Warning: Citation `Wu' on page 2 undefined on input line 209.
+LaTeX Warning: Citation `Wu' on page 2 undefined on input line 210.
 
 
-LaTeX Warning: Citation `Xuan' on page 2 undefined on input line 209.
+LaTeX Warning: Citation `Xuan' on page 2 undefined on input line 210.
 
-(F:\研究生毕设\work-of-master-s-degree\draft\20180109\draft.bbl [2 <F:/研
-究生毕设/work-of-master-s-degree/draft/20180109/Pantao.jpg>]) [3]
-(F:\研究生毕设\work-of-master-s-degree\draft\20180109\draft.aux)
+(F:\研究生毕设\work-of-master-s-degree\draft\20180109\draft.bbl [2])
+[3] (F:\研究生毕设\work-of-master-s-degree\draft\20180109\draft.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 4415 strings out of 495354
- 57087 string characters out of 3182740
- 123304 words of memory out of 3000000
- 7428 multiletter control sequences out of 15000+200000
- 60828 words of font info for 213 fonts, out of 3000000 for 9000
+ 4426 strings out of 495354
+ 57390 string characters out of 3182740
+ 126300 words of memory out of 3000000
+ 7441 multiletter control sequences out of 15000+200000
+ 60832 words of font info for 213 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 30i,10n,43p,537b,743s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 30i,10n,43p,537b,739s stack positions out of 5000i,500n,10000p,200000b,50000s
 <D:/Program Files (x86)/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><D:/Progr
 am Files (x86)/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><D:/Program Files (x
 86)/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><D:/Program Files (x86)/CTEX/CT
@@ -514,9 +507,9 @@ blic/amsfonts/cm/cmsy10.pfb><D:/Program Files (x86)/CTEX/MiKTeX/fonts/type1/pub
 lic/amsfonts/cm/cmsy6.pfb><D:/Program Files (x86)/CTEX/MiKTeX/fonts/type1/publi
 c/amsfonts/cm/cmsy9.pfb><D:/Program Files (x86)/CTEX/MiKTeX/fonts/type1/public/
 amsfonts/cm/cmti10.pfb>
-Output written on draft.pdf (3 pages, 533643 bytes).
+Output written on draft.pdf (3 pages, 452360 bytes).
 PDF statistics:
- 333 PDF objects out of 1000 (max. 8388607)
+ 332 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

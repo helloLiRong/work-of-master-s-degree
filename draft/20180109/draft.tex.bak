@@ -201,10 +201,6 @@ The phenomenon of generalization to inputs that are outside the training distrib
 
 另一个记忆单元不可写的模型是指针网络(Pointer Network, Ptr-Nets)\cite{vinyals2015pointer}，文中用Ptr-Nets解决了凸包问题和旅行商问题。
 
-除了这些模型外，还有一些研究者从外部记忆的结构，取址的效率等方便入手，提出了新的模型。例如：栈增强的循环神经网络(Stack-Argmented Recurrent Neural Network)\cite{joulin2015inferring}，使用了可微的栈结构作为外部记忆。另一个类似的结构来自\cite{grefenstette2015learning}，文中研究了三种不同结构的外部记忆，包括栈，双端队列和先进先出队列。值得注意的是，这些结构的取址效率都是常数时间。
-
-\cite{andrychowicz2016learning}提出层次记忆网络(Hierarchial Attentive Memory, HAM)。HAM用二叉树作为外部记忆，叶子节点作为记忆单元。根据二叉树的性质，HAM表现出了
-
 
 这些研究的目的是根据算法的输入和输出数据生成算法的原代码。
 \section{模型}

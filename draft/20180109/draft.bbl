@@ -80,6 +80,11 @@ Vladimir Vapnik.
 \newblock {\em The nature of statistical learning theory}.
 \newblock Springer science \& business media, 2013.
 
+\bibitem{weston2014memory}
+Jason Weston, Sumit Chopra, and Antoine Bordes.
+\newblock Memory networks.
+\newblock {\em arXiv preprint arXiv:1410.3916}, 2014.
+
 \bibitem{zaremba2015reinforcement}
 Wojciech Zaremba and Ilya Sutskever.
 \newblock Reinforcement learning neural turing machines.
