@@ -1,6 +1,10 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: draft.aux
 The style file: plain.bst
 Database file #1: reference.bib
+Repeated entry---line 141 of file reference.bib
+ : @inproceedings{joulin2015inferring
+ :                                   ,
+I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "Wu"
 Warning--I didn't find a database entry for "Xuan"
-(There were 2 warnings)
+(There was 1 error message)

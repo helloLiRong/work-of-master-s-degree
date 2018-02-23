@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2018.1.9)  25 JAN 2018 21:21
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2018.1.9)  16 FEB 2018 20:05
 entering extended mode
 **F:/研究生毕设/work-of-master-s-degree/draft/20180109/draft.tex
 (F:/研究生毕设/work-of-master-s-degree/draft/20180109/draft.tex
@@ -410,7 +410,7 @@ File: c19kai.fd 2009/09/23 4.8.2
 )
 
 Package multicol Warning: I moved some lines to the next page.
-(multicol)                Footnotes on page 1 might be wrong on input line 191.
+(multicol)                Footnotes on page 1 might be wrong on input line 184.
 
 
 
@@ -424,22 +424,22 @@ GBK.sfd}}
 
 ]
 
-LaTeX Warning: Citation `Wu' on page 2 undefined on input line 204.
+LaTeX Warning: Citation `Wu' on page 2 undefined on input line 216.
 
 
-LaTeX Warning: Citation `Xuan' on page 2 undefined on input line 204.
+LaTeX Warning: Citation `Xuan' on page 2 undefined on input line 216.
 
 
-LaTeX Warning: Citation `Wu' on page 2 undefined on input line 206.
+LaTeX Warning: Citation `Wu' on page 2 undefined on input line 218.
 
 
-LaTeX Warning: Citation `Xuan' on page 2 undefined on input line 206.
+LaTeX Warning: Citation `Xuan' on page 2 undefined on input line 218.
 
 
-LaTeX Warning: Citation `Wu' on page 2 undefined on input line 210.
+LaTeX Warning: Citation `Wu' on page 2 undefined on input line 222.
 
 
-LaTeX Warning: Citation `Xuan' on page 2 undefined on input line 210.
+LaTeX Warning: Citation `Xuan' on page 2 undefined on input line 222.
 
 (F:\研究生毕设\work-of-master-s-degree\draft\20180109\draft.bbl [2])
 [3] (F:\研究生毕设\work-of-master-s-degree\draft\20180109\draft.aux)
@@ -448,34 +448,34 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 4426 strings out of 495354
- 57390 string characters out of 3182740
- 126300 words of memory out of 3000000
- 7441 multiletter control sequences out of 15000+200000
+ 4504 strings out of 495354
+ 59014 string characters out of 3182740
+ 132996 words of memory out of 3000000
+ 7519 multiletter control sequences out of 15000+200000
  60832 words of font info for 213 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 30i,10n,43p,537b,739s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 32i,11n,43p,595b,712s stack positions out of 5000i,500n,10000p,200000b,50000s
 <D:/Program Files (x86)/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><D:/Progr
 am Files (x86)/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><D:/Program Files (x
 86)/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><D:/Program Files (x86)/CTEX/CT
 eX/fonts/truetype/chinese/simsun.ttf><D:/Program Files (x86)/CTEX/CTeX/fonts/tr
 uetype/chinese/simsun.ttf><D:/Program Files (x86)/CTEX/CTeX/fonts/truetype/chin
 ese/simsun.ttf><D:/Program Files (x86)/CTEX/CTeX/fonts/truetype/chinese/simsun.
-ttf><D:/Program Files (x86)/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/Win
-dows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf
-><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/si
-mhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/
-Fonts/simhei.ttf><C:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/simkai.ttf><C:/
-Windows/Fonts/simkai.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.
-ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts
-/simkai.ttf><C:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/simkai.ttf><C:/Windo
-ws/Fonts/simkai.ttf><C:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/simkai.ttf><
-C:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/simk
-ai.ttf><C:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/simkai.ttf><C:/Windows/Fo
-nts/simkai.ttf><C:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/simkai.ttf><C:/Wi
-ndows/Fonts/simkai.ttf><C:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/simkai.tt
-f><C:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/s
-imkai.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><D:/Program
+ttf><D:/Program Files (x86)/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/WIN
+DOWS/Fonts/simhei.ttf><C:/WINDOWS/Fonts/simhei.ttf><C:/WINDOWS/Fonts/simhei.ttf
+><C:/WINDOWS/Fonts/simhei.ttf><C:/WINDOWS/Fonts/simhei.ttf><C:/WINDOWS/Fonts/si
+mhei.ttf><C:/WINDOWS/Fonts/simhei.ttf><C:/WINDOWS/Fonts/simhei.ttf><C:/WINDOWS/
+Fonts/simhei.ttf><C:/WINDOWS/Fonts/simkai.ttf><C:/WINDOWS/Fonts/simkai.ttf><C:/
+WINDOWS/Fonts/simkai.ttf><C:/WINDOWS/Fonts/simhei.ttf><C:/WINDOWS/Fonts/simhei.
+ttf><C:/WINDOWS/Fonts/simhei.ttf><C:/WINDOWS/Fonts/simkai.ttf><C:/WINDOWS/Fonts
+/simkai.ttf><C:/WINDOWS/Fonts/simkai.ttf><C:/WINDOWS/Fonts/simkai.ttf><C:/WINDO
+WS/Fonts/simkai.ttf><C:/WINDOWS/Fonts/simkai.ttf><C:/WINDOWS/Fonts/simkai.ttf><
+C:/WINDOWS/Fonts/simkai.ttf><C:/WINDOWS/Fonts/simkai.ttf><C:/WINDOWS/Fonts/simk
+ai.ttf><C:/WINDOWS/Fonts/simkai.ttf><C:/WINDOWS/Fonts/simkai.ttf><C:/WINDOWS/Fo
+nts/simkai.ttf><C:/WINDOWS/Fonts/simkai.ttf><C:/WINDOWS/Fonts/simkai.ttf><C:/WI
+NDOWS/Fonts/simkai.ttf><C:/WINDOWS/Fonts/simkai.ttf><C:/WINDOWS/Fonts/simkai.tt
+f><C:/WINDOWS/Fonts/simkai.ttf><C:/WINDOWS/Fonts/simkai.ttf><C:/WINDOWS/Fonts/s
+imkai.ttf><C:/WINDOWS/Fonts/simhei.ttf><C:/WINDOWS/Fonts/simhei.ttf><D:/Program
  Files (x86)/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><D:/Program Files (x86
 )/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><D:/Program Files (x86)/CTEX/CTeX
 /fonts/truetype/chinese/simsun.ttf><D:/Program Files (x86)/CTEX/CTeX/fonts/true
@@ -500,16 +500,17 @@ X/CTeX/fonts/truetype/chinese/simsun.ttf><D:/Program Files (x86)/CTEX/MiKTeX/fo
 nts/type1/public/amsfonts/cm/cmbx10.pfb><D:/Program Files (x86)/CTEX/MiKTeX/fon
 ts/type1/public/amsfonts/cm/cmbx12.pfb><D:/Program Files (x86)/CTEX/MiKTeX/font
 s/type1/public/amsfonts/cm/cmbx8.pfb><D:/Program Files (x86)/CTEX/MiKTeX/fonts/
-type1/public/amsfonts/cm/cmr10.pfb><D:/Program Files (x86)/CTEX/MiKTeX/fonts/ty
-pe1/public/amsfonts/cm/cmr8.pfb><D:/Program Files (x86)/CTEX/MiKTeX/fonts/type1
-/public/amsfonts/cm/cmr9.pfb><D:/Program Files (x86)/CTEX/MiKTeX/fonts/type1/pu
-blic/amsfonts/cm/cmsy10.pfb><D:/Program Files (x86)/CTEX/MiKTeX/fonts/type1/pub
-lic/amsfonts/cm/cmsy6.pfb><D:/Program Files (x86)/CTEX/MiKTeX/fonts/type1/publi
-c/amsfonts/cm/cmsy9.pfb><D:/Program Files (x86)/CTEX/MiKTeX/fonts/type1/public/
-amsfonts/cm/cmti10.pfb>
-Output written on draft.pdf (3 pages, 452360 bytes).
+type1/public/amsfonts/cm/cmmi10.pfb><D:/Program Files (x86)/CTEX/MiKTeX/fonts/t
+ype1/public/amsfonts/cm/cmr10.pfb><D:/Program Files (x86)/CTEX/MiKTeX/fonts/typ
+e1/public/amsfonts/cm/cmr8.pfb><D:/Program Files (x86)/CTEX/MiKTeX/fonts/type1/
+public/amsfonts/cm/cmr9.pfb><D:/Program Files (x86)/CTEX/MiKTeX/fonts/type1/pub
+lic/amsfonts/cm/cmsy10.pfb><D:/Program Files (x86)/CTEX/MiKTeX/fonts/type1/publ
+ic/amsfonts/cm/cmsy6.pfb><D:/Program Files (x86)/CTEX/MiKTeX/fonts/type1/public
+/amsfonts/cm/cmsy9.pfb><D:/Program Files (x86)/CTEX/MiKTeX/fonts/type1/public/a
+msfonts/cm/cmti10.pfb>
+Output written on draft.pdf (3 pages, 500341 bytes).
 PDF statistics:
- 332 PDF objects out of 1000 (max. 8388607)
+ 336 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

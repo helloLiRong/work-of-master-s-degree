@@ -169,7 +169,13 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %  调整section名称与正文之间的距离
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-人工智能的一个目标是人类不但通过编程使计算机完成任务，而且可以通过教学使计算机学会如何去完成任务。近年来，一些研究者的工作向着这一目标迈出了重要的一步。这些工作\cite{graves2014neural, joulin2015inferring, kaiser2015neural, kurach2015neural} 利用外部记忆模块增强神经网络的能力，使神经网络学习到算法，比如复制，排序等。
+算法学习（Learning algorithms），也被称作程序推理（Program induction），是一个非常古老但却十分有意义的研究领域。过去几十年，有许多研究者做出了卓越的贡献，比如\cite{nordin1997evolutionary,liang2013learning,wineberg1994representation,solomonoff1964formal}。近年来，有部分研究者开始利用机器学习的方法研究该问题\cite{graves2014neural,zaremba2015reinforcement,kaiser2015neural,kurach2015neural,andrychowicz2016learning}。这些工作通过实验展示了利用机器学习方法可以学习到一些简单算法，例如复制，排序等。
+
+值得一提的是，这些工作都是基于循环神经网络（Recurrent Neural Network, RNN）或者循环神经网络的变种，例如长短时记忆网络（Long Short-term Memory, LSTM），神经网络图灵机（Neural Turing Machine, NTM）等。而选择循环神经网络这类模型，是由算法学习的任务特点决定的。接下来我们通过复制算法这个具体的任务来说明这类任务的特点。
+
+算法学习这个任务要求模型接收一个序列的输入后，并按照顺序输出这个序列。例如：向模型输入序列$Recurrent Neural Network\$$，其中$\$$ 是终止符，当模型接收到$\$$时，开始输出序列$Recurrent Neural Network\$$。首先，这个任务的输入和输出都是变长的，也就是说在接收终止符$\$$前，可以输入任意长度的序列。由于逻辑斯蒂回归（Logistic Regression, LR）、支持向量机（Support Vector Machine, SVM）、人工神经网络（Artificial Neural Network, ANN）、卷积神经网路（Convolutional Neural Network, CNN）等模型都只能处理输入输出维度固定的问题，这个重要的限制使得它们无法很好的处理这类任务。而RNNs在语音识别\cite{amodei2016deep}，自然语言处理\cite{bahdanau2014neural}等任务上的表现说明了RNNs具备解决这类变长问题的能力。
+
+其次，在开始输出序列之前，模型需要
 
 在训练的过程中，我们发现模型很难收敛，因此我们使用了课程学习来简化问题。课程学习的策略是：……
 
@@ -187,20 +193,24 @@ The phenomenon of generalization to inputs that are outside the training distrib
 %\end{figure*}
 
 \section{相关工作}
-算法学习这个任务最早可以追溯到1967年\cite{gold1967language, angluin1983inductive}。在漫长的研究过程中，随着模型、方法不同，该任务有许多不同的名称，例如:合成程序(program synthesis)、程序归纳(program induction)、自动编程(automatic programming)等。 但是其研究目标始终是为了让计算机有理解程序甚至自动编写程序的能力。\cite{gulwani2010dimensions} 和\cite{kitzelmann2009inductive} 两篇论文从多个角度描述了算法学习的研究现状。
+算法学习这个任务最早可以追溯到1967年\cite{gold1967language, angluin1983inductive}。在漫长的研究过程中，随着模型、方法不同，该任务有许多不同的名称，例如:合成程序（program synthesis）、程序归纳（program induction）、自动编程（automatic programming）等。 但是其研究目标始终是为了让计算机有理解程序甚至自动编写程序的能力。\cite{gulwani2010dimensions} 和\cite{kitzelmann2009inductive} 两篇论文从多个角度描述了算法学习的研究现状。
 
 近年来，有一些研究者将机器学习方法应用于算法学习任务，并在该任务上取得了一些成果。特别是\cite{graves2016hybrid}提出的NTM模型。这是第一次明确提出外部记忆增强的神经网络模型。根据这篇文章的实验结果，NTM能学习到复制，重复排序等简单算法。
 
-为了解决NTM不能并行和训练难度大等问题，\cite{kaiser2015neural}借鉴了Grid LSTM\cite{kalchbrenner2015grid}的思想，提出了一种高度并行的神经网络结构-神经网络GPU(Neural GPUs，N-GPUs)。该文章将N-GPUs应用于算法学习任务，实验结果表明该模型能学到二进制加法和二进制乘法。
+为了解决NTM不能并行和训练难度大等问题，\cite{kaiser2015neural}借鉴了Grid LSTM\cite{kalchbrenner2015grid}的思想，提出了一种高度并行的神经网络结构-神经网络GPU（Neural GPUs，N-GPUs）。该文章将N-GPUs应用于算法学习任务，实验结果表明该模型能学到二进制加法和二进制乘法。
 
-\cite{zaremba2015reinforcement}结合增强学习算法和NTM，得到了增强学习神经网络图灵机(Reinforcement Learning neural turing machine, RL-NTM)。具体来说，该模型用离散外部记忆替代NTM的可微外部记忆，在使用增强学习训练该模型后，该模型能学到复制，重复复制等简单算法。
+\cite{zaremba2015reinforcement}结合增强学习算法和NTM，得到了增强学习神经网络图灵机（Reinforcement Learning neural turing machine, RL-NTM）。具体来说，该模型用离散外部记忆替代NTM的可微外部记忆，在使用增强学习训练该模型后，该模型能学到复制，重复复制等简单算法。
 
-另一个对NTM做出改进的模型是\cite{graves2016hybrid}提出的可微神经计算机(Differentiable Neural Computer, DNC)。文中讨论了NTM 的三个缺陷，并一一提出了改进方案。最后把DNC应用于一些有趣的实验中，例如在伦敦地铁中，寻找两站之间的最佳路线;学习拼图游戏等，DNC均达到98.8\%的准确率以上。
+另一个对NTM做出改进的模型是\cite{graves2016hybrid}提出的可微神经计算机（Differentiable Neural Computer, DNC）。文中讨论了NTM 的三个缺陷，并一一提出了改进方案。最后把DNC应用于一些有趣的实验中，例如在伦敦地铁中，寻找两站之间的最佳路线;学习拼图游戏等，DNC均达到98.8\%的准确率以上。
 
-记忆神经网络(Memory neural network, MNN)\cite{weston2014memory}是稍晚于NTM提出的外部记忆增强的神经网络模型。文中将MNN应用于问答(question answering, QA)任务，实验效果要好于LSTM。与NTM不同的是，MNN的记忆单元是不可写的。
+记忆神经网络（Memory neural network, MNN）\cite{weston2014memory}是稍晚于NTM提出的外部记忆增强的神经网络模型。文中将MNN应用于问答（question answering, QA）任务，实验效果要好于LSTM。与NTM不同的是，MNN的记忆单元是不可写的。
 
-另一个记忆单元不可写的模型是指针网络(Pointer Network, Ptr-Nets)\cite{vinyals2015pointer}，文中用Ptr-Nets解决了凸包问题和旅行商问题。
+另一个记忆单元不可写的模型是指针网络（Pointer Network, Ptr-Nets）\cite{vinyals2015pointer}，文中用Ptr-Nets解决了凸包问题和旅行商问题。
 
+除了这些模型外，还有一些研究者从外部记忆的结构，取址的效率等方面入手提出了新的模型。例如：栈增强的循环神经网络（Stack-Argmented Recurrent Neural Network）\cite{joulin2015inferring}，使用了可微的栈结构作为外部记忆。另一个类似的结构来自\cite{grefenstette2015learning}，文中研究了三种不同结构的外部记忆，包括栈，双端队列和先进先出队列。值得注意的是，这些结构的取址效率都是常数时间。
+
+\cite{andrychowicz2016learning}提出层次记忆网络（Hierarchial Attentive Memory, HAM）。HAM用二叉树作为外部记忆，叶子节点作为记忆单元。相比于使用标准的注意力机制访存的NTM，如果外部记忆的大小是$n$的话，NTM寻址的复杂度是
+$\Theta \left( n \right)$，而HAM的寻址的复杂度是$\Theta \left(log \space n \right)$。
 
 这些研究的目的是根据算法的输入和输出数据生成算法的原代码。
 \section{模型}
