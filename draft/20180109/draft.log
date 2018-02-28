@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2018.1.9)  16 FEB 2018 20:05
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2018.1.9)  28 FEB 2018 10:50
 entering extended mode
 **F:/研究生毕设/work-of-master-s-degree/draft/20180109/draft.tex
 (F:/研究生毕设/work-of-master-s-degree/draft/20180109/draft.tex
@@ -408,9 +408,17 @@ LaTeX Font Info:    Try loading font information for C19+kai on input line 129.
 ("D:\Program Files (x86)\CTEX\CTeX\tex\latex\CJK\GB\c19kai.fd"
 File: c19kai.fd 2009/09/23 4.8.2
 )
+Underfull \hbox (badness 6173) in paragraph at lines 178--179
+[]\C19/song/m/n/10.95/37  \C19/song/m/n/10.95/58 � \C19/song/m/n/10.95/60 � \C
+19/song/m/n/10.95/46 � \C19/song/m/n/10.95/55 � \C19/song/m/n/10.95/62 ^ \C19/s
+ong/m/n/10.95/40  \C19/song/m/n/10.95/51  \C19/song/m/n/10.95/60 . \C19/song/
+m/n/10.95/55 � \C19/song/m/n/10.95/47 � \C19/song/m/n/10.95/58 � \C19/song/m/n/
+10.95/55   \C19/song/m/n/10.95/46 �
+ []
+
 
 Package multicol Warning: I moved some lines to the next page.
-(multicol)                Footnotes on page 1 might be wrong on input line 184.
+(multicol)                Footnotes on page 1 might be wrong on input line 190.
 
 
 
@@ -424,37 +432,41 @@ GBK.sfd}}
 
 ]
 
+LaTeX Warning: Citation `Wu' on page 2 undefined on input line 210.
+
+
+LaTeX Warning: Citation `Xuan' on page 2 undefined on input line 210.
+
+
+LaTeX Warning: Citation `Wu' on page 2 undefined on input line 212.
+
+
+LaTeX Warning: Citation `Xuan' on page 2 undefined on input line 212.
+
+
 LaTeX Warning: Citation `Wu' on page 2 undefined on input line 216.
 
 
 LaTeX Warning: Citation `Xuan' on page 2 undefined on input line 216.
 
+(F:\研究生毕设\work-of-master-s-degree\draft\20180109\draft.bbl [2]
+Underfull \hbox (badness 10000) in paragraph at lines 58--61
+[]\OT1/cmr/m/n/10 Sepp Hochre-it-er and Jurgen Schmid-hu-ber.
+ []
 
-LaTeX Warning: Citation `Wu' on page 2 undefined on input line 218.
-
-
-LaTeX Warning: Citation `Xuan' on page 2 undefined on input line 218.
-
-
-LaTeX Warning: Citation `Wu' on page 2 undefined on input line 222.
-
-
-LaTeX Warning: Citation `Xuan' on page 2 undefined on input line 222.
-
-(F:\研究生毕设\work-of-master-s-degree\draft\20180109\draft.bbl [2])
-[3] (F:\研究生毕设\work-of-master-s-degree\draft\20180109\draft.aux)
+) [3] (F:\研究生毕设\work-of-master-s-degree\draft\20180109\draft.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 4504 strings out of 495354
- 59014 string characters out of 3182740
- 132996 words of memory out of 3000000
- 7519 multiletter control sequences out of 15000+200000
+ 4489 strings out of 495354
+ 58685 string characters out of 3182740
+ 131097 words of memory out of 3000000
+ 7504 multiletter control sequences out of 15000+200000
  60832 words of font info for 213 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 32i,11n,43p,595b,712s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 30i,10n,43p,654b,739s stack positions out of 5000i,500n,10000p,200000b,50000s
 <D:/Program Files (x86)/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><D:/Progr
 am Files (x86)/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><D:/Program Files (x
 86)/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><D:/Program Files (x86)/CTEX/CT
@@ -508,7 +520,7 @@ lic/amsfonts/cm/cmsy10.pfb><D:/Program Files (x86)/CTEX/MiKTeX/fonts/type1/publ
 ic/amsfonts/cm/cmsy6.pfb><D:/Program Files (x86)/CTEX/MiKTeX/fonts/type1/public
 /amsfonts/cm/cmsy9.pfb><D:/Program Files (x86)/CTEX/MiKTeX/fonts/type1/public/a
 msfonts/cm/cmti10.pfb>
-Output written on draft.pdf (3 pages, 500341 bytes).
+Output written on draft.pdf (3 pages, 494629 bytes).
 PDF statistics:
  336 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

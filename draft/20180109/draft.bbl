@@ -54,6 +54,11 @@ Sumit Gulwani.
   on Principles and practice of declarative programming}, pages 13--24. ACM,
   2010.
 
+\bibitem{hochreiter1997long}
+Sepp Hochreiter and J{\"u}rgen Schmidhuber.
+\newblock Long short-term memory.
+\newblock {\em Neural computation}, 9(8):1735--1780, 1997.
+
 \bibitem{joulin2015inferring}
 Armand Joulin and Tomas Mikolov.
 \newblock Inferring algorithmic patterns with stack-augmented recurrent nets.
@@ -74,12 +79,6 @@ Nal Kalchbrenner, Ivo Danihelka, and Alex Graves.
 Emanuel Kitzelmann.
 \newblock Inductive programming: A survey of program synthesis techniques.
 \newblock In {\em AAIP}, pages 50--73. Springer, 2009.
-
-\bibitem{krizhevsky2012imagenet}
-Alex Krizhevsky, Ilya Sutskever, and Geoffrey~E Hinton.
-\newblock Imagenet classification with deep convolutional neural networks.
-\newblock In {\em Advances in neural information processing systems}, pages
-  1097--1105, 2012.
 
 \bibitem{kurach2015neural}
 Karol Kurach, Marcin Andrychowicz, and Ilya Sutskever.
@@ -102,11 +101,6 @@ Ray~J Solomonoff.
 \newblock A formal theory of inductive inference. part i.
 \newblock {\em Information and control}, 7(1):1--22, 1964.
 
-\bibitem{vapnik2013nature}
-Vladimir Vapnik.
-\newblock {\em The nature of statistical learning theory}.
-\newblock Springer science \& business media, 2013.
-
 \bibitem{vinyals2015pointer}
 Oriol Vinyals, Meire Fortunato, and Navdeep Jaitly.
 \newblock Pointer networks.
@@ -124,6 +118,11 @@ Mark Wineberg and Franz Oppacher.
   genetic algorithm.
 \newblock In {\em International Conference on Parallel Problem Solving from
   Nature}, pages 291--301. Springer, 1994.
+
+\bibitem{zaremba2014learning}
+Wojciech Zaremba and Ilya Sutskever.
+\newblock Learning to execute.
+\newblock {\em arXiv preprint arXiv:1410.4615}, 2014.
 
 \bibitem{zaremba2015reinforcement}
 Wojciech Zaremba and Ilya Sutskever.

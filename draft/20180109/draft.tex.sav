@@ -169,17 +169,17 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %  调整section名称与正文之间的距离
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-算法学习（Learning algorithms），也被称作程序推理（Program induction），是一个非常古老但却十分有意义的研究领域。过去几十年，有许多研究者做出了卓越的贡献，比如\cite{nordin1997evolutionary,liang2013learning,wineberg1994representation,solomonoff1964formal}。近年来，有部分研究者开始利用机器学习的方法研究该问题\cite{graves2014neural,zaremba2015reinforcement,kaiser2015neural,kurach2015neural,andrychowicz2016learning}。这些工作通过实验展示了利用机器学习方法可以学习到一些简单算法，例如复制，排序等。
+执行一个程序，系统需要理解数值计算，$if$表达式，赋值，以及一系列操作的组合等许多基本操作。我们将这些基本操作称为算法，例如加法，乘法，复制序列都被称为算法\cite{zaremba2014learning}。而通过输入和输出样例发现算法的任务，称为算法学习（Learning algorithms）。
 
-值得一提的是，这些工作都是基于循环神经网络（Recurrent Neural Network, RNN）或者循环神经网络的变种，例如长短时记忆网络（Long Short-term Memory, LSTM），神经网络图灵机（Neural Turing Machine, NTM）等。而选择循环神经网络这类模型，是由算法学习的任务特点决定的。接下来我们通过复制算法这个具体的任务来说明这类任务的特点。
+算法学习并不是一个新任务，它也被称为程序推理（Program induction），最早可以追溯到\cite{gold1967language, angluin1983inductive}，是一个非常古老但却十分有意义的研究领域，。这项任务有着丰富的应用场景：帮助没有计算机背景的人编写程序，帮助程序员发现问题，发现新的算法，甚至是教学。因而在过去几十年，有许多研究者投入到该任务的研究中，并做出了卓越的贡献，比如\cite{nordin1997evolutionary,liang2013learning,wineberg1994representation,solomonoff1964formal}。
 
-算法学习这个任务要求模型接收一个序列的输入后，并按照顺序输出这个序列。例如：向模型输入序列$Recurrent Neural Network\$$，其中$\$$ 是终止符，当模型接收到$\$$时，开始输出序列$Recurrent Neural Network\$$。首先，这个任务的输入和输出都是变长的，也就是说在接收终止符$\$$前，可以输入任意长度的序列。由于逻辑斯蒂回归（Logistic Regression, LR）、支持向量机（Support Vector Machine, SVM）、人工神经网络（Artificial Neural Network, ANN）、卷积神经网路（Convolutional Neural Network, CNN）等模型都只能处理输入输出维度固定的问题，这个重要的限制使得它们无法很好的处理这类任务。而RNNs在语音识别\cite{amodei2016deep}，自然语言处理\cite{bahdanau2014neural}等任务上的表现说明了RNNs具备解决这类变长问题的能力。
+近些年，有研究者利用机器学习模型，尤其是循环神经网络（Recurrent Neural Network, RNN），研究该问题\cite{graves2014neural,zaremba2015reinforcement,kaiser2015neural,kurach2015neural,andrychowicz2016learning}。这些工作通过实验展示了利用机器学习模型可以学习到一些简单算法，例如复制，排序等。
 
-其次，在开始输出序列之前，
+
 
 在训练的过程中，我们发现模型很难收敛，因此我们使用了课程学习来简化问题。课程学习的策略是：……
 
-深度学习在许多任务中都已经取得了很好的效果，例如机器视觉\cite{krizhevsky2012imagenet}，语音识别\cite{amodei2016deep}，自然语言处理\cite{bahdanau2014neural}等。但仍有一些任务，一直没有取得关键性的效果。算法学习任务（）是其中比较有趣的一种。这个任务可以追溯到\cite{gold1967language, angluin1983inductive}, 但至今还远未取得较好的结果。
+深度学习在许多任务中都已经取得了很好的效果，例如机器视觉\cite{krizhevsky2012imagenet}，语音识别\cite{amodei2016deep}，自然语言处理\cite{bahdanau2014neural}等。但仍有一些任务，一直没有取得关键性的效果。算法学习任务（）是其中比较有趣的一种。, 但至今还远未取得较好的结果。
 将深度学习应用该任务之后，已经有了显著的突破。有一些结构已经有能力学会简单的算法，比如排序，加法，乘法等。
 
 \cite{vapnik2013nature}证明了只要训练数据和测试数据来自同一分布，并且训练数据的数量多余参数数量，那么最小化训练误差就能保证在模型在测试集上可以取得理想的效果。这个性质在实践中非常有用，并且已经在很多实际应用中被证明。
