@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2018.1.9)  28 FEB 2018 10:50
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2018.1.9)  1 MAR 2018 10:22
 entering extended mode
 **F:/研究生毕设/work-of-master-s-degree/draft/20180109/draft.tex
 (F:/研究生毕设/work-of-master-s-degree/draft/20180109/draft.tex
@@ -277,6 +277,56 @@ Package: abstract 2009/06/08 v1.2a configurable abstracts
 \absparindent=\skip67
 \absparsep=\skip68
 )
+("D:\Program Files (x86)\CTEX\MiKTeX\tex\latex\tools\enumerate.sty"
+Package: enumerate 1999/03/05 v3.00 enumerate extensions (DPC)
+\@enLab=\toks20
+)
+(F:\研究生毕设\work-of-master-s-degree\draft\20180109\pythonhighlight.sty
+Package: pythonhighlight 2011/09/19 python code highlighting; provided by Olivi
+er Verdier <olivier.verdier@gmail.com>
+
+("D:\Program Files (x86)\CTEX\MiKTeX\tex\latex\listings\listings.sty"
+\lst@mode=\count135
+\lst@gtempboxa=\box58
+\lst@token=\toks21
+\lst@length=\count136
+\lst@currlwidth=\dimen141
+\lst@column=\count137
+\lst@pos=\count138
+\lst@lostspace=\dimen142
+\lst@width=\dimen143
+\lst@newlines=\count139
+\lst@lineno=\count140
+\lst@maxwidth=\dimen144
+
+("D:\Program Files (x86)\CTEX\MiKTeX\tex\latex\listings\lstmisc.sty"
+File: lstmisc.sty 2007/02/22 1.4 (Carsten Heinz)
+\c@lstnumber=\count141
+\lst@skipnumbers=\count142
+\lst@framebox=\box59
+)
+("D:\Program Files (x86)\CTEX\MiKTeX\tex\latex\listings\listings.cfg"
+File: listings.cfg 2007/02/22 1.4 listings configuration
+))
+Package: listings 2007/02/22 1.4 (Carsten Heinz)
+
+("D:\Program Files (x86)\CTEX\MiKTeX\tex\latex\xcolor\xcolor.sty"
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+("D:\Program Files (x86)\CTEX\MiKTeX\tex\latex\00miktex\color.cfg"
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+))
 ("D:\Program Files (x86)\CTEX\MiKTeX\tex\latex\cjk\standard.bdg"
 File: standard.bdg 2008/12/29 4.8.2
 )
@@ -287,138 +337,132 @@ File: extended.enc 2008/12/29 4.8.2
 File: extended.chr 2008/12/29 4.8.2
 )
 (F:\研究生毕设\work-of-master-s-degree\draft\20180109\draft.aux)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for C05/song/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for C09/song/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for C10/song/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for C20/song/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for C19/song/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for C40/song/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for C42/song/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for C43/song/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for C50/song/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for C52/song/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for C49/song/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for C60/mj/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for C61/mj/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for C63/mj/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for C64/mj/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for C65/mj/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for C70/song/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for C31/song/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for C32/song/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for C33/song/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for C34/song/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for C35/song/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for C36/song/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for C05/song/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for C09/song/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for C10/song/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for C20/song/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for C19/song/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for C40/song/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for C42/song/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for C43/song/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for C50/song/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for C52/song/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for C49/song/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for C60/mj/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for C61/mj/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for C63/mj/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for C64/mj/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for C65/mj/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for C70/song/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for C31/song/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for C32/song/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for C33/song/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for C34/song/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for C35/song/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for C36/song/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
 
 ("D:\Program Files (x86)\CTEX\MiKTeX\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count135
-\scratchdimen=\dimen141
-\scratchbox=\box58
-\nofMPsegments=\count136
-\nofMParguments=\count137
-\everyMPshowfont=\toks20
-\MPscratchCnt=\count138
-\MPscratchDim=\dimen142
-\MPnumerator=\count139
-\makeMPintoPDFobject=\count140
-\everyMPtoPDFconversion=\toks21
-) ("D:\Program Files (x86)\CTEX\MiKTeX\tex\latex\cjk\GB\GB.cpx"
+\scratchcounter=\count143
+\scratchdimen=\dimen145
+\scratchbox=\box60
+\nofMPsegments=\count144
+\nofMParguments=\count145
+\everyMPshowfont=\toks22
+\MPscratchCnt=\count146
+\MPscratchDim=\dimen146
+\MPnumerator=\count147
+\makeMPintoPDFobject=\count148
+\everyMPtoPDFconversion=\toks23
+)
+\c@lstlisting=\count149
+ ("D:\Program Files (x86)\CTEX\MiKTeX\tex\latex\cjk\GB\GB.cpx"
 File: GB.cap 2003/05/18 4.5.2for Standard LaTeX document class
 )
-LaTeX Font Info:    Try loading font information for C19+song on input line 113
+LaTeX Font Info:    Try loading font information for C19+song on input line 116
 .
 
 ("D:\Program Files (x86)\CTEX\CTeX\tex\latex\CJK\GB\c19song.fd"
 File: c19song.fd 2009/09/23 4.8.2
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 113.
+LaTeX Font Info:    Try loading font information for U+msa on input line 116.
 
 ("D:\Program Files (x86)\CTEX\MiKTeX\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 113.
+LaTeX Font Info:    Try loading font information for U+msb on input line 116.
 
 ("D:\Program Files (x86)\CTEX\MiKTeX\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for C19+hei on input line 129.
+LaTeX Font Info:    Try loading font information for C19+hei on input line 132.
 
 
 ("D:\Program Files (x86)\CTEX\CTeX\tex\latex\CJK\GB\c19hei.fd"
 File: c19hei.fd 2009/09/23 4.8.2
 )
-LaTeX Font Info:    Try loading font information for C19+kai on input line 129.
+LaTeX Font Info:    Try loading font information for C19+kai on input line 132.
 
 
 ("D:\Program Files (x86)\CTEX\CTeX\tex\latex\CJK\GB\c19kai.fd"
 File: c19kai.fd 2009/09/23 4.8.2
 )
-Underfull \hbox (badness 6173) in paragraph at lines 178--179
-[]\C19/song/m/n/10.95/37  \C19/song/m/n/10.95/58 � \C19/song/m/n/10.95/60 � \C
-19/song/m/n/10.95/46 � \C19/song/m/n/10.95/55 � \C19/song/m/n/10.95/62 ^ \C19/s
-ong/m/n/10.95/40  \C19/song/m/n/10.95/51  \C19/song/m/n/10.95/60 . \C19/song/
-m/n/10.95/55 � \C19/song/m/n/10.95/47 � \C19/song/m/n/10.95/58 � \C19/song/m/n/
-10.95/55   \C19/song/m/n/10.95/46 �
- []
-
 
 Package multicol Warning: I moved some lines to the next page.
-(multicol)                Footnotes on page 1 might be wrong on input line 190.
+(multicol)                Footnotes on page 1 might be wrong on input line 184.
 
 
 
@@ -430,43 +474,117 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [1{D:/Program Files (x86)/CTEX/UserData/pdftex/config/pdftex.map{Unicode.sfd}{U
 GBK.sfd}}
 
-]
+] [2]
+("D:\Program Files (x86)\CTEX\MiKTeX\tex\latex\listings\lstlang1.sty"
+File: lstlang1.sty 2004/09/05 1.3 listings language file
+)
+LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <9> not available
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 229.
 
-LaTeX Warning: Citation `Wu' on page 2 undefined on input line 210.
-
-
-LaTeX Warning: Citation `Xuan' on page 2 undefined on input line 210.
-
-
-LaTeX Warning: Citation `Wu' on page 2 undefined on input line 212.
-
-
-LaTeX Warning: Citation `Xuan' on page 2 undefined on input line 212.
+Overfull \hbox (10.66998pt too wide) in paragraph at lines 232--233
+[][][][] 
+ []
 
 
-LaTeX Warning: Citation `Wu' on page 2 undefined on input line 216.
+Overfull \hbox (10.66998pt too wide) in paragraph at lines 232--233
+[][][] 
+ []
 
 
-LaTeX Warning: Citation `Xuan' on page 2 undefined on input line 216.
+Overfull \hbox (10.66998pt too wide) in paragraph at lines 232--233
+[][] 
+ []
 
-(F:\研究生毕设\work-of-master-s-degree\draft\20180109\draft.bbl [2]
+
+Overfull \hbox (22.00995pt too wide) in paragraph at lines 232--233
+[][][] 
+ []
+
+
+Overfull \hbox (10.66998pt too wide) in paragraph at lines 232--233
+[][][] 
+ []
+
+
+Overfull \hbox (10.66998pt too wide) in paragraph at lines 232--233
+[][] 
+ []
+
+
+Overfull \hbox (16.33997pt too wide) in paragraph at lines 232--233
+[][] 
+ []
+
+
+Overfull \hbox (10.66998pt too wide) in paragraph at lines 232--233
+[][] 
+ []
+
+
+Overfull \hbox (10.66998pt too wide) in paragraph at lines 232--233
+[][] 
+ []
+
+
+Overfull \hbox (22.00995pt too wide) in paragraph at lines 232--233
+[][][] 
+ []
+
+
+Overfull \hbox (10.66998pt too wide) in paragraph at lines 232--233
+[][][] 
+ []
+
+
+Overfull \hbox (16.33997pt too wide) in paragraph at lines 232--233
+[][] 
+ []
+
+
+Overfull \hbox (10.66998pt too wide) in paragraph at lines 232--233
+[][] 
+ []
+
+
+Overfull \hbox (10.66998pt too wide) in paragraph at lines 232--233
+[][] 
+ []
+
+
+Overfull \hbox (5.0pt too wide) in paragraph at lines 232--233
+[]  
+ []
+
+
+LaTeX Warning: Citation `Wu' on page 3 undefined on input line 238.
+
+
+LaTeX Warning: Citation `Xuan' on page 3 undefined on input line 238.
+
+
+LaTeX Warning: Citation `Wu' on page 3 undefined on input line 242.
+
+
+LaTeX Warning: Citation `Xuan' on page 3 undefined on input line 242.
+
+(F:\研究生毕设\work-of-master-s-degree\draft\20180109\draft.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 58--61
 []\OT1/cmr/m/n/10 Sepp Hochre-it-er and Jurgen Schmid-hu-ber.
  []
 
-) [3] (F:\研究生毕设\work-of-master-s-degree\draft\20180109\draft.aux)
+[3]) [4] (F:\研究生毕设\work-of-master-s-degree\draft\20180109\draft.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 4489 strings out of 495354
- 58685 string characters out of 3182740
- 131097 words of memory out of 3000000
- 7504 multiletter control sequences out of 15000+200000
- 60832 words of font info for 213 fonts, out of 3000000 for 9000
+ 6954 strings out of 495354
+ 90663 string characters out of 3182740
+ 210972 words of memory out of 3000000
+ 9939 multiletter control sequences out of 15000+200000
+ 61634 words of font info for 217 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 30i,10n,43p,654b,739s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 33i,11n,48p,656b,1826s stack positions out of 5000i,500n,10000p,200000b,50000s
 <D:/Program Files (x86)/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><D:/Progr
 am Files (x86)/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><D:/Program Files (x
 86)/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><D:/Program Files (x86)/CTEX/CT
@@ -516,13 +634,15 @@ type1/public/amsfonts/cm/cmmi10.pfb><D:/Program Files (x86)/CTEX/MiKTeX/fonts/t
 ype1/public/amsfonts/cm/cmr10.pfb><D:/Program Files (x86)/CTEX/MiKTeX/fonts/typ
 e1/public/amsfonts/cm/cmr8.pfb><D:/Program Files (x86)/CTEX/MiKTeX/fonts/type1/
 public/amsfonts/cm/cmr9.pfb><D:/Program Files (x86)/CTEX/MiKTeX/fonts/type1/pub
-lic/amsfonts/cm/cmsy10.pfb><D:/Program Files (x86)/CTEX/MiKTeX/fonts/type1/publ
-ic/amsfonts/cm/cmsy6.pfb><D:/Program Files (x86)/CTEX/MiKTeX/fonts/type1/public
-/amsfonts/cm/cmsy9.pfb><D:/Program Files (x86)/CTEX/MiKTeX/fonts/type1/public/a
-msfonts/cm/cmti10.pfb>
-Output written on draft.pdf (3 pages, 494629 bytes).
+lic/amsfonts/cm/cmsltt10.pfb><D:/Program Files (x86)/CTEX/MiKTeX/fonts/type1/pu
+blic/amsfonts/cm/cmsy10.pfb><D:/Program Files (x86)/CTEX/MiKTeX/fonts/type1/pub
+lic/amsfonts/cm/cmsy6.pfb><D:/Program Files (x86)/CTEX/MiKTeX/fonts/type1/publi
+c/amsfonts/cm/cmsy9.pfb><D:/Program Files (x86)/CTEX/MiKTeX/fonts/type1/public/
+amsfonts/cm/cmti10.pfb><D:/Program Files (x86)/CTEX/MiKTeX/fonts/type1/public/a
+msfonts/cm/cmtt9.pfb>
+Output written on draft.pdf (4 pages, 531769 bytes).
 PDF statistics:
- 336 PDF objects out of 1000 (max. 8388607)
+ 347 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

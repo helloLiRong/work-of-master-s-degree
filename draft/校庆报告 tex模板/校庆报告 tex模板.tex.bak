@@ -1,0 +1,339 @@
+ \documentclass[10pt]{cctart}
+ \usepackage{amsfonts}
+ \setcounter{page}{1} % The number of 1st page is 1
+ \usepackage{flafter}
+ \usepackage{mathbbold}
+ \usepackage{mathrsfs}
+ \usepackage{amsmath}
+ \usepackage{amssymb}
+ \usepackage{latexsym}
+ \usepackage{psfrag}
+ \usepackage{graphicx,subfigure}
+ \usepackage{fancyhdr,graphicx}
+ \usepackage{multicol}
+
+ \textheight 8.4in \textwidth 7.0in \tolerance=10000
+ \parskip=3pt
+ \oddsidemargin -1.2truecm \baselineskip 1true mm \overfullrule=0pt
+ \topmargin -0.6in
+ \renewcommand{\sectionformat}{}
+ \renewcommand\refname{参考文献:}
+ \oddsidemargin -1.2truecm \evensidemargin 0in \makeatletter
+ \setcounter{tocdepth}{3}
+ \pagestyle{plain}
+ \newsavebox{\mygraphic}
+ \sbox{\mygraphic}{\includegraphics[totalheight=0.65in]{head.jpg}}
+ \pagestyle{fancy} \topmargin=0pt \headheight=18mm \headsep=4mm
+ \fancyhead{} \fancyhead[L]{\usebox{\mygraphic}}
+ \fancyhead[R]{2011东南大学校庆研究生学术报告会\\}
+ \fancyfoot[R]{\footnotesize{2011东南大学校庆研究生学术报告会}}
+ \makeatletter
+ \let\ps@tmp=\ps@fancy
+ \let\ps@plain=\ps@fancy
+ \makeatother \topskip=12.0pt
+ \def\vp{\varphi}
+ \newcounter{local}
+ \newcommand{\scl}{\stepcounter{local}}
+ \newtheorem{defi}{\heiti\textbf{\ \ \quad 定义}}[section]
+ \newtheorem{theo}{\heiti\textbf{\ \ \quad 定理}}[section]
+ \newtheorem{lem}[theo]{\heiti\textbf{\ \ \quad 引理}}
+ \newtheorem{col}[theo]{\heiti\textbf{\ \ \quad 推论}}
+ \newtheorem{prop}[theo]{\heiti\textbf{\ \ \quad 命题}}
+ \newtheorem{remark}[theo]{\heiti\textbf{\ \ \quad 注}}
+ \newcommand{\dist}{\mathrm{dist}\mbox{}}
+ \newcommand\be{\begin{equation}}
+ \newcommand\ee{\end{equation}}
+ \newcommand\bes{\begin{eqnarray}}
+ \newcommand\ees{\end{eqnarray}}
+ \newcommand\bess{\begin{eqnarray*}}
+ \newcommand\eess{\end{eqnarray*}}
+ \newcommand\bR{{\mathbb R}}
+ \newcommand{\lbl}[1]{\label{#1}}
+%\mathindent 2cm
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+\baselineskip 6 true mm
+\date{}
+\title{\heiti 极大非奇异partial矩阵的自由元个数及partial矩阵$N_{0}-$填充的反例
+\author{{\small 任杰~~~~ 陈建龙}
+\\ {(\footnotesize  东南大学数学系, 南京, 210096)}}}
+
+\maketitle \hskip 1cm
+
+\ {\heiti 摘\  \ 要} \ \
+2010年, Richard A. Brualdi, Zejun Huang 以及Xingzhi Zhan提出了刻画极大非奇异partial矩阵的问题. 本文利用加
+边矩阵的思想证明了, 任一阶极大非奇异partial矩阵的容许的自由元个数最小为0, 且$n\geqslant1$时, 存在自由元个数
+为1的$n$阶极大非奇异partial矩阵; 并猜想, 对于$n$阶极大非奇异partial矩阵, 其可能的自由元个数为
+$0, 1, 2, \cdots,\frac{n(n-1)}{2}$. 本文还给出了partial矩阵的$N_{0}-$填充的几个反例.
+我们研究
+
+\vskip 0.2cm ~{\heiti 关键词}~ ~
+partial矩阵; 填充; 加边矩阵; 非奇异; partial $N_{0}-$矩阵
+\vskip 1.2cm
+\begin{center}
+{\Large\bf   The indeterminates number of a maximal-nonsingular partial matrix and some counter examples of partial $N_{0}$ matrix}
+\end{center}
+\vskip 0.3cm \centerline{Jie Ren ~~~~Jianlong Chen} \vskip 0.2cm
+\centerline{(Department of  Mathematics,  Southeast University,
+Nanjing 210096)} \vskip 0.2cm
+\noindent$\mathbf{Abstract:}$\quad
+In 2010,  Richard A. Brualdi ，Zejun Huang and Xingzhi Zhan released a question about how to characterize
+a maximal-nonsingular partial matrix. It has been proved, useing idea of  borderd matrix, there exists
+maiximal-nonsingular partial matrix of any order, with the number of the indeterminates being zero. When $n\geqslant1$,
+there also exists maximal-nonsingular partialmatrix that has only one indeterminate. Then we guess that:
+for a $n$ order maximal-nonsingular partial matrix, the probable numbers of its indeterminates are $0, 1, 2, \cdots, \frac{n(n-1)}{2}$.Morever, some counter examples about the completion of partial $N_{0}-$matrix are given.\\
+\vskip 0.1cm \noindent$\mathbf{Key\ words:}$\quad Partial matrix；Completion；Bordered matrix；Nonsingular; $N_{0}-$partial matrix
+ \vskip 0.2cm
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{multicols}{2}
+
+\section{引\quad 言}
+在域\textbf{F}上, 若一个矩阵的部分元素已经给定, 另一部分元素未指定, 则称这个矩阵为partial矩阵. 己给定的元素称为指
+定元, 而未指定的元素称为自由元, 并以$x$记之. 对一个partial矩阵, 若保持其指定元不变并并对自由元赋值, 则称为对partial
+矩阵的填充. Partial矩阵的概念最初是在1977年, 由研究部分自动机理论的Chirkov, M. K. 提出[1].
+
+
+2010年末, Richard A. Brualdi, Zejun Huang和Xingzhi Zhan对partial矩阵的推广——ACI-矩阵（affine column independent matrix）进行了深入研究[2][3]. 文中给出了ACI-矩阵所有填充的秩都不大于给定数的充要条件并证明对partial矩阵也如是; 所有
+填充都是非奇异的partial矩阵其自由元个数至多为$\frac{n(n-1)}{2}$, 其中$n$为partial矩阵的阶数; 并在最后提出两个问题:
+1、什么条件下ACI-矩阵的所有填充秩都为给定数; 什么条件下ACI-矩阵的所有填充秩都不小于给定数？2、刻画极大非奇异partial
+矩阵.
+
+\section{$\sharp0$的极大非奇异partial矩阵}
+本节即针对问题2的粗浅研究. 其中$\sharp i$表示此极大非奇异partial矩阵的自由元个数为$i$. 本文中以$B_{a}$记划去$B$中元
+素$a$所在的行和列后得到的余子阵; 以$\hat{c_{ij}}$记列(行)向量$c_{j}$划去第$i$个分量后得到的列(行)向量,不引起歧义时简记为$\hat{c_{j}}$.
+
+极大非奇异partial矩阵是指, 一个所有填充都是非奇异的partial矩阵$A$, 在把任何一个指定元替换为新的自由元从而得到partial矩
+阵$B$后, $B$至少有一个奇异的填充.
+
+由[2], 我们有$n$阶极大非奇异partial矩阵自由元个数的上限为$\frac{n(n-1)}{2}$, 且达到上限时极大非奇异partial矩阵具有如下
+的结构:\\
+$A=
+\begin{bmatrix}
+a_{11} & x_{12} & \cdots & x_{1n}   \\
+0      & \ddots & \ddots & \vdots   \\
+\vdots & \ddots & \ddots & x_{n-1, 1}\\
+0      & \cdots & 0      & a_{nn}   \\
+\end{bmatrix}
+$,
+其中$a_{ii}\neq0, i=1, \cdots, n$.
+既然极大非奇异partial矩阵自由元个数的上限已经清楚, 那么下限又是什么?
+
+首先我们证明了，对于任何$n\in N$，存在$n$阶的$\sharp0$极大非奇异partial矩阵.
+
+\ {\heiti 定理1.1} 存在任意$n$阶的$\sharp0$的极大非奇异partial矩阵.\\
+
+证明: $\forall n\in\mathbb{N},\exists A_{n\times n}$, 满足det$A\neq0,a_{ij}\neq0,\forall i,j.$\\
+那么有det$A^{\ast}\neq0$,其中$A^{\ast}$为$A$的伴随矩阵.
+
+又由$A^{\ast}A=$det$A\cdot I_{n}$,\\
+以及$A^{\ast}(A^{\ast})^{\ast}=$det$A^{\ast}\cdot I_{n}$,\\
+有$A^{\ast}A=kA^{\ast}(A^{\ast})^{\ast}$, 且$k\neq0$.\\
+两边同时左乘$(A^{\ast})^{-1}$, 有\\
+$A=k(A^{\ast})^{\ast}$. 那么, $kA^{\ast}$中任一元素的代数余子式为$A$中一个元素, 且非零.
+那么$A^{\ast}$为$n$阶$\sharp0$的极大非奇异partial矩阵. $\Box$
+
+
+注:本条定理的意义在于, 给出了极大非奇异partial矩阵容许未定元个数的最小值,
+突破了“阶数越大越不可能未定元个数很小”的定势思维, 有助于开拓思路找到性质很
+好的极大非奇异partial矩阵.
+
+\section{$\sharp1$的极大非奇异partial矩阵}
+接下来给出的是$n>1$时, $n$阶$\sharp1$极大非奇异partial矩阵的存在性定理.
+
+\ {\heiti 引理1.2}设$A=(a_{ij})_{n}$为$n$阶极大非奇异partial矩阵, 且任一行(列)
+至少有min$\{2, n\}$个非零元, 那么$n+2$阶以$A$为子阵且满足条件:
+
+(1)$b_{j}=\sum\limits_{i=1}^{n}k_{i}a_{ij}, j=1, \cdots, n-1$, 所有$k_{i}$全部为非零常数,
+
+(2)$c_{k}=\sum\limits_{j=1}^{n-1}l_{j}a_{kj}, k=1, \cdots, n$, 所有$l_{j}$全部为非零常数,
+
+(3)$b_{0}\neq\sum\limits_{j=1}^{n-1}l_{i}b_{j}$,
+
+(4)若有$\hat{c}=\sum\limits_{j\in G}p_{j}\hat{a}_{j}$, \\
+则有$b_{0}\neq\sum\limits_{j\in G, j\neq n}p_{j}b_{j}$,
+其中$a_{j}$为$A$的列向量, $G\subsetneqq\{1, \cdots, n\}, p_{j}\neq0, \forall j\in G$. \\
+的矩阵$B$, 为$\sharp1$的极大非奇异partial矩阵. $B$的形式如下:\\
+
+$\begin{bmatrix}
+ b \ \ x &b_{0}\\
+ A       &c    \\
+\end{bmatrix}$,
+其中$b=(b_{1}, \cdots, b_{n-1})$为$1\times(n-1)$的行向量,
+$c=(c_{1}, \cdots, c_{n})^{T}$为$n\times1$的列向量.\\
+
+证明:
+由[3], $B$若是非奇异, 那么必须有det$B=const$, 也即det$B_{x}=0$, 且$B$满秩.
+显见det$B_{x}=0$, 由$c_{k}=\sum\limits_{j=1}^{n-1}l_{i}a_{kj}, k=1, \cdots, n$.
+同样由$c_{k}=\sum\limits_{j=1}^{n-1}l_{i}a_{kj}, k=1, \cdots, n$, 那么要使得
+
+$\begin{bmatrix}
+b_{1}\\
+a_{1}\\
+\end{bmatrix}, \cdots,
+\begin{bmatrix}
+b_{n}\\
+a_{n}\\
+\end{bmatrix},
+\begin{bmatrix}
+b_{0}\\
+c    \\
+\end{bmatrix}$\\
+作为列向量线性相关, 必须有
+
+$b_{0}=\sum\limits_{j=1}^{n-1}l_{i}b_{j}$.\\
+而$b_{0}\neq\sum\limits_{j=1}^{n-1}l_{i}b_{j}$.
+因此该向量组秩为$n$. 而由$A$非奇异有$a_{n}$不能被$a_{1}, \cdots, a_{n-1}$线性表示.因而
+
+$\begin{bmatrix}
+b_{1}\\
+a_{1}\\
+\end{bmatrix}, \cdots,
+\begin{bmatrix}
+b_{n}\\
+a_{n}\\
+\end{bmatrix},
+\begin{bmatrix}
+x    \\
+a_{n}\\
+\end{bmatrix},
+\begin{bmatrix}
+b_{0}\\
+c    \\
+\end{bmatrix}$\\
+这一向量组秩为$n+1$, $B$满秩. $B$的非奇异性得证.
+
+下证$B$的极大性. 即把任意常数换为自由元$y$时, 对$x, y$适当赋值后有det$B=0$.
+也即det$B=ky+b$, 把$B$的行列式按$y$所在行(或列)展开后, $b$为不含$y$的项之和,
+k为det$B_{y}$, 且$k\neq0$. 那么$B$的极大性也即, $B$的除$A_{x}$外的任一低一
+阶子阵, 若不含$x$, 则满秩; 若含$x$, 则对$x$适当赋值后, 满秩.
+
+首先看$b_{0}$. $B_{b_{0}}=A$, 保证了$B_{b_{0}}$满秩.
+
+然后验证$b_{1}$. 列向量组
+$a_{1}, \cdots, a_{j-1}, a_{j+1}, \cdots, a_{n}, c$\\
+秩为$n$, 由此有det$B_{b_{i}}\neq0$.
+
+其余的$b_{j}$, $j=2, \cdots, n-1$与$b_{1}$类似.
+
+然后验证$c_{1}$. 由行向量组
+
+$f_{1}, \cdots, f_{j-1}, f_{j+1}, \cdots, f_{n},
+\begin{bmatrix}
+b&x\\
+\end{bmatrix}$\\
+秩为$n$, 由此有det$B_{c_{1}} \neq0$, 其中$f_{i}$为$A$的第$i$个行向量.
+
+其余的$c_{i}$以及$a_{in}, i=1, \cdots, n$与$c_{1}$类似, 分别也有det$B_{c_{i}}\neq0$与det$B_{a_{in}}\neq0$.
+
+最后验证$a_{ij}, i=1, \cdots, n, j=1, \cdots, n-1$, 仍不妨只验证$a_{n1}$.
+
+记$A$中划去$a_{n1}$所在行、列得到的矩阵为$A'$,
+$A'$的第$i$个行向量记为$a'_{i}$,
+并且记$(c_{1}, \cdots, c_{n-1})^{T}$为$c'$.
+
+由$A$为极大非奇异partial矩阵, 有其任一代数余子式非零. 那么就有, rank$A'=n-1$,
+则有$c'=\sum\limits_{i=2}^{n}m_{i}a_{i}'$, 且$m_{i}$不全为$0$.
+
+由条件(4), 在$m_{n}=0$时, 有$b_{0}\neq\sum\limits_{i=2}^{n}m_{i}b_{i}$,
+因此det$B_{a_{n1}}\neq0$.
+
+在$m_{n}\neq0$时, 令$x$的取值使得$b_{0}\neq\sum\limits_{i=2}^{n-1}m_{i}b_{i}+m_{n}x$,
+仍有$b_{0}\neq\sum\limits_{i=2}^{n}m_{i}b_{i}$.
+因此det$B_{a_{n1}}\neq0$.
+
+
+
+综上, $B$的极大性得证. $\Box$
+
+\ {\heiti 定理1.3} $n>1$时存在任意$n$阶的$\sharp1$的极大非奇异partial矩阵.\\
+
+证明:由于$n>1$时存在任意$n-1$阶极大非奇异partial矩阵, 且其任一行(列)至少有
+min$\{2, n-1\}$个非零元, 那么由引理1.2, 有$n>1$时存在任意$n$阶的$\sharp1$
+的极大非奇异partial矩阵. $\Box$
+
+本条定理的意义在于, $\sharp0$的极大非奇异partial矩阵中不含自由元, 在应用上颇有
+不便.在要求必须有至少一个自由元的情况下, 本定理给出了$n>1$时$\sharp1$的极大非
+奇异partial矩阵的存在性.
+
+\section{几个partial $N_{0}-$矩阵$N_{0}-$填充的反例}
+
+$N_{0}-$矩阵是指, 其所有的主子式都是非正的. Partial $N_{0}-$矩阵是指, 其每个完全
+指定的主子矩阵为$N_{0}-$矩阵. 一个partial $N_{0}-$矩阵有$N_{0}-$填充, 即存在对
+自由元的赋值, 使得赋值后的partial $N_{0}-$矩阵 为$N_{0}-$矩阵. Jordán, C. ;  Ara
+újo, C. Mendes;  Torregrosa, Juan R. 在2009年借助弦图1、给出了主对角线无零元素
+的partial$N_{0}-$矩阵有$N_{0}-$填充的充分条件; 2、主对角线有零元素时，给出了一
+些条件，使得一些组合对称的partial $N_{0}-$矩阵还有非组合对称的partial$N_{0}-$
+矩阵有$N_{0}-$填充[4]. 但是其用来简化证明过程的一个集合定义有误.
+
+\ {\heiti 例1.4}
+$A=
+\begin{bmatrix}
+-1 & -1  & -1  \\
+-1 & -1  & -1  \\
+-1 & -1  & -1  \\
+\end{bmatrix}
+$.
+
+[4]文中提到的$S_{n}$定义如下:\\
+$S_{n}=\{A=(a_{ij}):a_{ij}\neq0$ and $sign(a_{ij})=(-1)^{i+j+1}, \forall i, j\}$.
+文中用到的是任一$n$阶对角线无零元的$N_{0}-$矩阵均对角相似于$S_{n}$中某一元素.
+对角相似定义如下:
+$\tilde{A}$与$A$对角相似, 如果存在某个对角线全部为正对角元的对角矩阵$Q$,
+使得$\tilde{A}=Q^{-1}AQ$.
+
+很明显, 例1.4与$S_{3}$中任一元素均不对角相似, 但是却是对角线无零元的$N_{0}-$矩阵.\\
+
+[4]文中命题2的证明建立在所有可以有$N_{0}-$填充的3阶partial $N_{0}-$矩阵均在填充
+后均相似于$S_{n}$. 下一个反例说明, 不仅有3阶的对角线无零元的partial $N_{0}-$矩阵,
+而且此矩阵无$N_{0}-$填充.
+
+\ {\heiti 例1.5}
+$A=
+\begin{bmatrix}
+-1         & -10 &x   \\
+-1         & -1  &-10 \\
+\frac{1}{2}& -1  &-1  \\
+\end{bmatrix}
+$.
+
+此矩阵符合partial $N_{0}-$矩阵的定义, 且对角线无零元.但是其det$A[\{1, 3\}]\leq0$要求
+$x\geq2$, 其det$A\leq0$却要求$x\leq-\frac{23}{2}$, 因此例1.6中的partial $N_{0}-$矩阵无
+$N_{0}-$填充, 与文中命题2相悖.
+
+\section{结论与展望}
+
+极大非奇异partial矩阵自由元个数的上、下限已经得出, 那么, 下一步的问题就是, 是否上、下限
+之间的所有整数, 都是极大非奇异partial矩阵自由元个数的可能取值? 结论并非是明显的, 还需要
+更加普适的构造方法和理论证明.
+
+[4]一文中的错误全因$S_{n}$定义不准确且不适用于所有partial $N_{0}-$矩阵, 因此在寻找到
+$S_{n}$的更完善的表示方法后, 一定可以全面改善其中的结论.
+
+
+
+\begin{thebibliography}{}
+\bibitem{1}
+Chirkov， M. K. Generalized partial vectors， matrices and automata. (Russian) Vy$\breve{c}$isl. Tehn. i Voprosy Kibernet. Vyp. 14 (1977)， 86–111， 208.
+\bibitem{2}
+Richard A. Brualdi ，Zejun Huang ，Xingzhi Zhan .Singular，Nonsingular，and Bounded Rank Completions of ACI-Matrices.Linear Algebra Appl.， 433(2010):1452-1462.
+\bibitem{3}
+Zejun Huang， Xingzhi Zhan ACI-matrices all of whose completions have the same rank， Linear Algebra Appl.， 434 (2011)， 1956-1967.
+\bibitem{4}
+Jordán， C.;  Araújo， C. Mendes;  Torregrosa， Juan R. $N_{0}$ completions on partial matrices. Appl. Math. Comput.211 (2009)， no. 2， 303–312.
+\bibitem{5}
+Chirkov， M. K. Chastichnye avtomaty. (Russian) [Partial automata] Leningrad. Univ.， Leningrad， 1983. 260 pp.
+\bibitem{6}
+Davis， Chandler Completing a matrix so as to minimize the rank. Topics in operator theory and interpolation， 87–95， Oper. Theory Adv. Appl.， 29， Birkh$\ddot{a}$user， Basel， 1988.
+\bibitem{7}
+Johnson， Charles R.;  Rodman， Leiba Chordal inheritance principles and positive definite completions of partial matrices over function rings. Contributions to operator theory and its applications (Mesa， AZ， 1987)， 107–127， Oper. Theory Adv. Appl.， 35， Birkh$\ddot{a}$user， Basel， 1988.
+\bibitem{8}
+Liang， Jun-ping; He， Ming The totally non-positive matrix completion problem. Numer. Math. J. Chin. Univ. (Engl. Ser.) 15 (2006)， no. 4， 312–319.
+\bibitem{9}
+Richard A. Brualdi ，Zejun Huang ，Xingzhi Zhan .Singular，Nonsingular，and Bounded Rank Completions of ACI-Matrices.Linear Algebra Appl.， 433(2010):1452-1462.
+\bibitem{10}
+R.B. Bapat， Konig's theorem and bimatroids， Linear Algebra Appl.， 212/213(1994)， 353-365.
+
+\end{thebibliography}
+%\end{multicols}
+\end{document}

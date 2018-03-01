@@ -28,6 +28,7 @@
 \usepackage{indentfirst} % 中文首段缩进
 \usepackage{picins}      % 图片嵌入段落宏包 比如照片
 \usepackage{abstract}    % 2栏文档，一栏摘要及关键字宏包
+\usepackage{enumerate}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %  lengths
 %    下面的命令重定义页面边距，使其符合中文刊物习惯。
@@ -169,21 +170,15 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %  调整section名称与正文之间的距离
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-执行一个程序，系统需要理解数值计算，$if$表达式，赋值，以及一系列操作的组合等许多基本操作。我们将这些基本操作称为算法，例如加法，乘法，复制序列都被称为算法\cite{zaremba2014learning}。而通过输入和输出样例发现算法的任务，称为算法学习（Learning algorithms）。
+执行一个程序，系统需要理解数值计算，$if$表达式，赋值，以及一系列操作的组合等许多基本操作。本文中将这些基本操作称为算法，例如加法，乘法，复制序列都被称为算法\cite{zaremba2014learning}。而通过输入和输出样例发现算法的任务，称为算法学习（Learning algorithms）。
 
 实际上，算法学习不是一个新任务，它也被称为程序推理（Program induction），最早可以追溯到1967年\cite{gold1967language, angluin1983inductive}，是一个非常古老但却十分有意义的研究领域。这项任务有着丰富的应用场景，例如：帮助没有计算机背景的人编写程序，帮助程序员发现问题，发现新算法，帮助教学。因而在过去几十年，有许多研究者投入到该任务的研究中\cite{nordin1997evolutionary,liang2013learning,wineberg1994representation,solomonoff1964formal}，并做出了卓越的贡献。
 
-近些年，有研究者利用机器学习模型，尤其是循环神经网络（Recurrent Neural Network, RNN），研究该问题\cite{graves2014neural,zaremba2015reinforcement,kaiser2015neural,kurach2015neural,andrychowicz2016learning}。这些工作通过都是实验展示了利用机器学习模型可以学习到一些诸如复制，排序等简单的算法。
+在近些年，有研究者利用机器学习模型，尤其是循环神经网络（Recurrent Neural Network, RNN），研究该问题\cite{graves2014neural,zaremba2015reinforcement,kaiser2015neural,kurach2015neural,andrychowicz2016learning}。这些工作通过都是实验展示了利用机器学习模型可以学习到一些诸如复制，排序等简单的算法。
 
-本文研究使用的模型是可微神经计算机（Differentiable Neural Computer, DNC）\cite{graves2016hybrid}。DNC是一个变种的循环神经网络模型，类似于长短时记忆网路（Long Short Term Memory, LSTM）\cite{hochreiter1997long}。LSTM在很多存在长距离依赖的任务中表现出优秀的性能，例如语音识别\cite{amodei2016deep}，自然语言处理\cite{bahdanau2014neural} 等。但是在LSTM中，增加记忆单元的个数会导致模型参数个数的增加，使得模型难以训练。而DNC为了解决该问题，将记忆单元从网络中分离出来，将网络分割为可训练的控制器模块和外部记忆模块两个部分，外部记忆模块的大小将不再依赖于网络参数的个数。
+本文研究中使用的模型是可微神经计算机（Differentiable Neural Computer, DNC）\cite{graves2016hybrid}。DNC是一个变种的循环神经网络模型，类似于长短时记忆网路（Long Short Term Memory, LSTM）\cite{hochreiter1997long}。LSTM在很多存在长距离依赖的任务中表现出优秀的性能，例如语音识别\cite{amodei2016deep}，自然语言处理\cite{bahdanau2014neural} 等。但是在LSTM中，增加记忆单元的个数会导致模型参数个数的增加，使得模型难以训练。而DNC为了解决该问题，将记忆单元从网络中分离出来，将网络分割为可训练的控制器模块和外部记忆模块两个部分，外部记忆模块的大小将不再依赖于网络参数的个数。
 
-本文的实验将DNC应用于算法学习这个任务，尝试理解DNC的能力。通过实验我们发现：第一，使用课程学习，使DNC从不可收敛变成可收敛。第二，DNC在复制、加法、乘法等算法学习任务可以收敛。第三，增大外部记忆模块的大小，会加快模型的收敛速度和稳定性。第四，模型没有表现出泛化能力，即使用远长于训练时序列长度的样例进行测试时，模型无法正确预测输出。
-
-%\begin{figure*}
-%\centering
-%\includegraphics[width=12cm]{Pantao.jpg}
-%\caption{王母娘娘寿筵上的蟠桃}\label{fig2}
-%\end{figure*}
+本文尝试理解DNC的记忆能力，并将DNC应用于算法学习这个任务。通过实验我们发现：第一，使用课程学习，使DNC从不可收敛变成可收敛。第二，DNC在复制、加法、乘法等算法学习任务可以收敛。第三，增大外部记忆模块的大小，会加快模型的收敛速度，减少收敛时的震荡。第四，模型没有表现出泛化能力，即使用远长于训练时序列长度的样例进行测试时，模型无法正确预测输出。
 
 \section{相关工作}
 算法学习这个任务最早可以追溯到1967年\cite{gold1967language, angluin1983inductive}。在漫长的研究过程中，随着模型、方法不同，该任务有许多不同的名称，例如:合成程序（program synthesis）、程序归纳（program induction）、自动编程（automatic programming）等。 但是其研究目标始终是为了让计算机有理解程序甚至自动编写程序的能力。\cite{gulwani2010dimensions} 和\cite{kitzelmann2009inductive} 两篇论文从多个角度描述了算法学习的研究现状。
@@ -194,7 +189,7 @@
 
 \cite{zaremba2015reinforcement}结合增强学习算法和NTM，得到了增强学习神经网络图灵机（Reinforcement Learning neural turing machine, RL-NTM）。具体来说，该模型用离散外部记忆替代NTM的可微外部记忆，在使用增强学习训练该模型后，该模型能学到复制，重复复制等简单算法。
 
-另一个对NTM做出改进的模型是\cite{graves2016hybrid}提出的可微神经计算机。文中讨论了NTM 的三个缺陷，并一一提出了改进方案。最后把DNC应用于一些有趣的实验中，例如在伦敦地铁中，寻找两站之间的最佳路线;学习拼图游戏等，DNC均达到98.8\%的准确率以上。
+另一个对NTM做出改进的模型是\cite{graves2016hybrid}提出的DNC。文中讨论了NTM 的三个缺陷，并一一提出了改进方案。最后把DNC应用于一些有趣的实验中，例如在伦敦地铁中，寻找两站之间的最佳路线；学习拼图游戏等，DNC均达到98.8\%以上的准确率。
 
 记忆神经网络（Memory neural network, MNN）\cite{weston2014memory}是稍晚于NTM提出的外部记忆增强的神经网络模型。文中将MNN应用于问答（question answering, QA）任务，实验效果要好于LSTM。与NTM不同的是，MNN的记忆单元是不可写的。
 
@@ -208,7 +203,25 @@ $\Theta \left( n \right)$，而HAM的寻址的复杂度是$\Theta \left(log \space n \righ
 
 
 \section{模型}
-文献\supercite{Wu,Xuan}中提到: 模型
+
+这个部分将简要的描述DNC\supercite{graves2016hybrid}。DNC可以分为两个部分，一是控制器，另一个是外部记忆模块。控制器可以是前向神经网络或者循环神经网络。本文中的实验用的是LSTM，在3.1中，将简要的介绍该模型。外部记忆模块是一个给定大小的矩阵，通过两个超参数控制矩阵的大小。
+
+\section{任务}
+本文考虑了四种不同的任务，分别是：复制，加法，三个数的加法和一位数的乘法。具体的例子可以见图？。需要强调的是，对于冯诺依曼体系结构下的计算机，程序员通过编码操作来CPU和寄存器可以很轻松的完成这些任务。但是对于DNC来说，不是针对问题进行编码，而是使用数据训练DNC，使DNC学会这些算法。
+
+\textbf{复制} 这个任务的目的是复制输入字符。输入序列是任意长度的字符串，并以终止符结尾。这个任务可以测试DNC是否有能力存取任意长度的信息。
+
+\textbf{加法} 这个任务的目的是对输入序列求和。这个任务要求模型：1）有能力存取任意长的信息。2）发现加法中进位的概念。3）理解一位数加法的概念。本文考虑了以下两种表示方式：
+\begin{enumerate}[(1)] 
+\item 1 2 3 4 5 + 5 4 
+\item 1 2 3 4 5 + 0 0 0 5 4
+\end{enumerate}
+在实际的实验中发现，第一种表示方式处理比较困难，尤其是增加了课程学习的设计难度。因此，不是一般性的，本文的实验采用的是第二种表示方式，即相加的两个数都有相同的长度。
+
+\textbf{三个数加法} 与上一个任务的不同点在于有三个数参与运算。相比于两个数的加法，难度在于进位的状态有三个（0,1,2）。
+
+\textbf{一位数乘法} 这个任务是用一个一位数乘以一个多位数。这个任务的复杂度与加法类似，不过进位的状态可以是0到8里的任意一个。
+
 \section{实验}
 文献\supercite{Wu,Xuan}中提到: 实验
 HAM提到只要有一个bit错了，就认为整个输出序列错了
