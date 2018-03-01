@@ -150,6 +150,31 @@ $\Theta \left( n \right)$，而HAM的寻址的复杂度是$\Theta \left(log \space n \righ
 \textbf{一位数乘法} 这个任务是用一个一位数乘以一个多位数。这个任务的复杂度与加法类似，不过进位的状态可以是0到8里的任意一个。
 
 \section{实验}
+
+\subsection{网络参数}
+DNC是可微的神经网络模型，在训练模型的过程中，本文首先用一小部分数据集对比了随机梯度下降算法以及其他两种改进的随机梯度下降算法RMSprop和Adam，并针对学习率、Mini-batch大小、权重初始化策略等超参数进行调优。最终在训练时采用RMSP算法和表\ref{tab:superparameter}中展示的各项超参数。在各项超参数中需要说明的是DNC的控制器使用的是只有一层隐藏层的LSTM，隐藏层的记忆单元的个数是128。
+
+\begin{table*}
+\caption{网络超参数}\label{tab:superparameter}
+\centering
+\begin{tabular}{|l|l|l|l| p{5cm}|}
+\hline
+\textbf{超参数} & \textbf{优化策略}\\ \hline
+
+学习率 & 0.0001 \\ \hline
+momentum & 0 \\ \hline
+Mini-batch大小 & 32 \\ \hline
+训练次数 & 100000 \\ \hline
+LSTM隐藏层单元的个数 & 128 \\ \hline
+权重初始化策略 & $Uniform(-r, r)$ \\ \hline
+\end{tabular}
+\end{table*} 
+
+\subsection{课程学习}
+课程学习是在训练模型的过程中一项重要的技术，本文使用的课程学习策略类似于\cite{zaremba2014learning}中的策略。具体来说，本文实验中使用的数据集将根据输入序列的长度划分为若干组。
+\\\textbf{不用课程学习} 这作为一个比较基准，不使用课程学习策略。即我们
+
+
 文献\cite{Wu,Xuan}中提到: 实验
 HAM提到只要有一个bit错了，就认为整个输出序列错了
 比较部分也可以参考HAM的内容

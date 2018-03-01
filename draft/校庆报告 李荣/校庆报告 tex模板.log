@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2018.1.9)  1 MAR 2018 16:32
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2018.1.9)  1 MAR 2018 20:13
 entering extended mode
 **F:/研究生毕设/work-of-master-s-degree/draft/校庆报告*李荣/校庆�
 �告*tex模板.tex
@@ -372,25 +372,36 @@ File: task.jpg Graphic file (type jpg)
  <use task.jpg>
 Package pdftex.def Info: task.jpg used on input line 135.
 (pdftex.def)             Requested size: 289.07999pt x 82.59769pt.
+LaTeX Font Info:    Font shape `OMS/cmr/bx/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/b/n' tried instead on input line 154.
+
+Underfull \hbox (badness 6876) in paragraph at lines 155--156
+[]\OT1/cmr/m/n/10 DNC\gbksong55-10.5 � \gbksong47-10.5 � \gbksong58-10.5 � \gbk
+song40-10.5  \gbksong55-10.5   \gbksong46-10.5 � \gbksong58-10.5  \gbksong49-
+10.5 � \gbksong51-10.5  \gbksong60-10.5 . \gbksong26-10.5 �| \gbksong63-10.5 3
+ \gbksong60-10.5 � \gbksong48-10.5 � \gbksong51-10.5  \gbksong60-10.5 . \gbkso
+ng40-10.5 
+ []
 
 
-LaTeX Warning: Citation `Wu' on page 3 undefined on input line 153.
+LaTeX Warning: Citation `Wu' on page 3 undefined on input line 177.
 
 
-LaTeX Warning: Citation `Xuan' on page 3 undefined on input line 153.
+LaTeX Warning: Citation `Xuan' on page 3 undefined on input line 177.
+
+[3]
+
+LaTeX Warning: Citation `Wu' on page 4 undefined on input line 181.
 
 
-LaTeX Warning: Citation `Wu' on page 3 undefined on input line 157.
-
-
-LaTeX Warning: Citation `Xuan' on page 3 undefined on input line 157.
+LaTeX Warning: Citation `Xuan' on page 4 undefined on input line 181.
 
 
 ("F:\研究生毕设\work-of-master-s-degree\draft\校庆报告 李荣\校庆�
 �告 tex模板.bbl"
 ("D:\Program Files (x86)\CTEX\CTeX\tex\latex\CJK\GB\c19kai.fd")
-(\ziti{C}->gbkkai) [3] [4 <F:/研究生毕设/work-of-master-s-degree/draft/校
-庆报告 李荣/task.jpg>]) [5]
+(\ziti{C}->gbkkai) [4 <F:/研究生毕设/work-of-master-s-degree/draft/校庆�
+��告 李荣/task.jpg>]) [5]
 ("F:\研究生毕设\work-of-master-s-degree\draft\校庆报告 李荣\校庆�
 �告 tex模板.aux")
 
@@ -402,20 +413,41 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 3474 strings out of 495354
- 44691 string characters out of 3182740
- 118834 words of memory out of 3000000
- 6490 multiletter control sequences out of 15000+200000
- 44727 words of font info for 168 fonts, out of 3000000 for 9000
+ 3488 strings out of 495354
+ 44873 string characters out of 3182740
+ 120842 words of memory out of 3000000
+ 6503 multiletter control sequences out of 15000+200000
+ 47365 words of font info for 177 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 29i,10n,43p,683b,607s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 29i,10n,43p,683b,613s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/WINDOWS/Fonts/simhei.ttf><C:/WINDOWS/Fonts/simhei.ttf><C:/WINDOWS/Fonts/s
 imhei.ttf><C:/WINDOWS/Fonts/simhei.ttf><C:/WINDOWS/Fonts/simhei.ttf><C:/WINDOWS
-/Fonts/simhei.ttf><C:/WINDOWS/Fonts/simhei.ttf><C:/WINDOWS/Fonts/simhei.ttf><D:
-/Program Files (x86)/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><D:/Program Fi
-les (x86)/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><D:/Program Files (x86)/C
-TEX/CTeX/fonts/truetype/chinese/simsun.ttf><D:/Program Files (x86)/CTEX/CTeX/fo
-nts/truetype/chinese/simsun.ttf><C:/WINDOWS/Fonts/simhei.ttf><C:/WINDOWS/Fonts/
+/Fonts/simhei.ttf><C:/WINDOWS/Fonts/simhei.ttf><C:/WINDOWS/Fonts/simhei.ttf><C:
+/WINDOWS/Fonts/simhei.ttf><D:/Program Files (x86)/CTEX/CTeX/fonts/truetype/chin
+ese/simsun.ttf><D:/Program Files (x86)/CTEX/CTeX/fonts/truetype/chinese/simsun.
+ttf><D:/Program Files (x86)/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><D:/Pro
+gram Files (x86)/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/WINDOWS/Fonts/
+simhei.ttf><C:/WINDOWS/Fonts/simhei.ttf><D:/Program Files (x86)/CTEX/CTeX/fonts
+/truetype/chinese/simsun.ttf><D:/Program Files (x86)/CTEX/CTeX/fonts/truetype/c
+hinese/simsun.ttf><D:/Program Files (x86)/CTEX/CTeX/fonts/truetype/chinese/sims
+un.ttf><D:/Program Files (x86)/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><D:/
+Program Files (x86)/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><D:/Program Fil
+es (x86)/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><D:/Program Files (x86)/CT
+EX/CTeX/fonts/truetype/chinese/simsun.ttf><D:/Program Files (x86)/CTEX/CTeX/fon
+ts/truetype/chinese/simsun.ttf><C:/WINDOWS/Fonts/simhei.ttf><C:/WINDOWS/Fonts/s
+imhei.ttf><D:/Program Files (x86)/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><
+D:/Program Files (x86)/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><D:/Program 
+Files (x86)/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><D:/Program Files (x86)
+/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><D:/Program Files (x86)/CTEX/CTeX/
+fonts/truetype/chinese/simsun.ttf><D:/Program Files (x86)/CTEX/CTeX/fonts/truet
+ype/chinese/simsun.ttf><D:/Program Files (x86)/CTEX/CTeX/fonts/truetype/chinese
+/simsun.ttf><D:/Program Files (x86)/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf
+><D:/Program Files (x86)/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><D:/Progra
+m Files (x86)/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/WINDOWS/Fonts/sim
+hei.ttf><C:/WINDOWS/Fonts/simhei.ttf><C:/WINDOWS/Fonts/simhei.ttf><C:/WINDOWS/F
+onts/simhei.ttf><C:/WINDOWS/Fonts/simhei.ttf><C:/WINDOWS/Fonts/simhei.ttf><C:/W
+INDOWS/Fonts/simhei.ttf><C:/WINDOWS/Fonts/simhei.ttf><C:/WINDOWS/Fonts/simhei.t
+tf><C:/WINDOWS/Fonts/simhei.ttf><C:/WINDOWS/Fonts/simhei.ttf><C:/WINDOWS/Fonts/
 simhei.ttf><D:/Program Files (x86)/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf>
 <D:/Program Files (x86)/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><D:/Program
  Files (x86)/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><D:/Program Files (x86
@@ -423,47 +455,26 @@ simhei.ttf><D:/Program Files (x86)/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf>
 /fonts/truetype/chinese/simsun.ttf><D:/Program Files (x86)/CTEX/CTeX/fonts/true
 type/chinese/simsun.ttf><D:/Program Files (x86)/CTEX/CTeX/fonts/truetype/chines
 e/simsun.ttf><D:/Program Files (x86)/CTEX/CTeX/fonts/truetype/chinese/simsun.tt
-f><C:/WINDOWS/Fonts/simhei.ttf><C:/WINDOWS/Fonts/simhei.ttf><D:/Program Files (
-x86)/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><D:/Program Files (x86)/CTEX/C
-TeX/fonts/truetype/chinese/simsun.ttf><D:/Program Files (x86)/CTEX/CTeX/fonts/t
-ruetype/chinese/simsun.ttf><D:/Program Files (x86)/CTEX/CTeX/fonts/truetype/chi
-nese/simsun.ttf><D:/Program Files (x86)/CTEX/CTeX/fonts/truetype/chinese/simsun
-.ttf><D:/Program Files (x86)/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><D:/Pr
-ogram Files (x86)/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><D:/Program Files
- (x86)/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><D:/Program Files (x86)/CTEX
-/CTeX/fonts/truetype/chinese/simsun.ttf><D:/Program Files (x86)/CTEX/CTeX/fonts
-/truetype/chinese/simsun.ttf><C:/WINDOWS/Fonts/simhei.ttf><C:/WINDOWS/Fonts/sim
-hei.ttf><C:/WINDOWS/Fonts/simhei.ttf><C:/WINDOWS/Fonts/simhei.ttf><C:/WINDOWS/F
-onts/simhei.ttf><C:/WINDOWS/Fonts/simhei.ttf><C:/WINDOWS/Fonts/simhei.ttf><C:/W
-INDOWS/Fonts/simhei.ttf><C:/WINDOWS/Fonts/simhei.ttf><C:/WINDOWS/Fonts/simhei.t
-tf><C:/WINDOWS/Fonts/simhei.ttf><C:/WINDOWS/Fonts/simhei.ttf><D:/Program Files 
-(x86)/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><D:/Program Files (x86)/CTEX/
-CTeX/fonts/truetype/chinese/simsun.ttf><D:/Program Files (x86)/CTEX/CTeX/fonts/
-truetype/chinese/simsun.ttf><D:/Program Files (x86)/CTEX/CTeX/fonts/truetype/ch
-inese/simsun.ttf><D:/Program Files (x86)/CTEX/CTeX/fonts/truetype/chinese/simsu
-n.ttf><D:/Program Files (x86)/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><D:/P
-rogram Files (x86)/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><D:/Program File
-s (x86)/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><D:/Program Files (x86)/CTE
-X/CTeX/fonts/truetype/chinese/simsun.ttf><D:/Program Files (x86)/CTEX/CTeX/font
-s/truetype/chinese/simsun.ttf><D:/Program Files (x86)/CTEX/MiKTeX/fonts/type1/p
-ublic/amsfonts/cm/cmbsy10.pfb><D:/Program Files (x86)/CTEX/MiKTeX/fonts/type1/p
-ublic/amsfonts/cm/cmbx10.pfb><D:/Program Files (x86)/CTEX/MiKTeX/fonts/type1/pu
-blic/amsfonts/cm/cmbx12.pfb><D:/Program Files (x86)/CTEX/MiKTeX/fonts/type1/pub
-lic/amsfonts/cm/cmmi10.pfb><D:/Program Files (x86)/CTEX/MiKTeX/fonts/type1/publ
-ic/amsfonts/cm/cmmi12.pfb><D:/Program Files (x86)/CTEX/MiKTeX/fonts/type1/publi
-c/amsfonts/cm/cmmi7.pfb><D:/Program Files (x86)/CTEX/MiKTeX/fonts/type1/public/
-amsfonts/cm/cmr10.pfb><D:/Program Files (x86)/CTEX/MiKTeX/fonts/type1/public/am
-sfonts/cm/cmr12.pfb><D:/Program Files (x86)/CTEX/MiKTeX/fonts/type1/public/amsf
-onts/cm/cmr7.pfb><D:/Program Files (x86)/CTEX/MiKTeX/fonts/type1/public/amsfont
-s/cm/cmr8.pfb><D:/Program Files (x86)/CTEX/MiKTeX/fonts/type1/public/amsfonts/c
-m/cmr9.pfb><D:/Program Files (x86)/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/c
-msy10.pfb><D:/Program Files (x86)/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cm
-sy7.pfb><D:/Program Files (x86)/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmti
-9.pfb><D:/Program Files (x86)/CTEX/MiKTeX/fonts/type1/public/amsfonts/symbols/m
-sam10.pfb>
-Output written on "校庆报告 tex模板.pdf" (5 pages, 595852 bytes).
+f><D:/Program Files (x86)/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><D:/Progr
+am Files (x86)/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><D:/Program Files (x
+86)/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmbsy10.pfb><D:/Program Files (x
+86)/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><D:/Program Files (x8
+6)/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><D:/Program Files (x86
+)/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/Program Files (x86)
+/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><D:/Program Files (x86)/
+CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><D:/Program Files (x86)/CT
+EX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/Program Files (x86)/CTEX
+/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/Program Files (x86)/CTEX/M
+iKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><D:/Program Files (x86)/CTEX/MiKT
+eX/fonts/type1/public/amsfonts/cm/cmr8.pfb><D:/Program Files (x86)/CTEX/MiKTeX/
+fonts/type1/public/amsfonts/cm/cmr9.pfb><D:/Program Files (x86)/CTEX/MiKTeX/fon
+ts/type1/public/amsfonts/cm/cmsy10.pfb><D:/Program Files (x86)/CTEX/MiKTeX/font
+s/type1/public/amsfonts/cm/cmsy7.pfb><D:/Program Files (x86)/CTEX/MiKTeX/fonts/
+type1/public/amsfonts/cm/cmti9.pfb><D:/Program Files (x86)/CTEX/MiKTeX/fonts/ty
+pe1/public/amsfonts/symbols/msam10.pfb>
+Output written on "校庆报告 tex模板.pdf" (5 pages, 609105 bytes).
 PDF statistics:
- 304 PDF objects out of 1000 (max. 8388607)
+ 308 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
