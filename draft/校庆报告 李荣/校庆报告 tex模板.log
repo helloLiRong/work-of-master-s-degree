@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2018.1.9)  4 MAR 2018 10:25
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2018.1.9)  16 MAR 2018 17:02
 entering extended mode
 **F:/研究生毕设/work-of-master-s-degree/draft/校庆报告*李荣/校庆�
 �告*tex模板.tex
@@ -266,143 +266,251 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks24
 \@floatcapt=\box56
 )
-\mygraphic=\box57
+("D:\Program Files (x86)\CTEX\MiKTeX\tex\latex\enumitem\enumitem.sty"
+Package: enumitem 2011/09/28 v3.5.2 Customized lists
+\labelindent=\skip66
+\enit@outerparindent=\dimen127
+\enit@toks=\toks25
+\enit@inbox=\box57
+\enitdp@description=\count120
+)
+("D:\Program Files (x86)\CTEX\MiKTeX\tex\latex\diagbox\diagbox.sty"
+Package: diagbox 2011/11/23 v2.0 Making table heads with diagonal lines
+
+("D:\Program Files (x86)\CTEX\MiKTeX\tex\latex\pict2e\pict2e.sty"
+Package: pict2e 2011/04/05 v0.2y Improved picture commands (HjG,RN,JT)
+
+("D:\Program Files (x86)\CTEX\MiKTeX\tex\latex\00miktex\pict2e.cfg"
+File: pict2e.cfg 2005/12/29 v1.0 MiKTeX 'pict2e' configuration
+)
+Package pict2e Info: Driver file: pdftex.def on input line 119.
+Package pict2e Info: Driver file for pict2e: p2e-pdftex.def on input line 121.
+
+("D:\Program Files (x86)\CTEX\MiKTeX\tex\latex\pict2e\p2e-pdftex.def"
+File: p2e-pdftex.def 2011/04/05 v0.1t Driver-dependant file (RN,HjG,JT)
+)
+\pIIe@GRAPH=\toks26
+\@arclen=\dimen128
+\@arcrad=\dimen129
+\@tempdimd=\dimen130
+)
+("D:\Program Files (x86)\CTEX\MiKTeX\tex\latex\fp\fp.sty"
+Package: fp 1995/04/02
+
+`Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich
+("D:\Program Files (x86)\CTEX\MiKTeX\tex\latex\fp\defpattern.sty"
+Package: defpattern 1994/10/12
+\actioncount=\count121
+)
+("D:\Program Files (x86)\CTEX\MiKTeX\tex\latex\fp\fp-basic.sty"
+Package: fp-basic 1996/05/13
+\FP@xs=\count122
+\FP@xia=\count123
+\FP@xib=\count124
+\FP@xfa=\count125
+\FP@xfb=\count126
+\FP@rega=\count127
+\FP@regb=\count128
+\FP@regs=\count129
+\FP@times=\count130
+)
+("D:\Program Files (x86)\CTEX\MiKTeX\tex\latex\fp\fp-addons.sty"
+Package: fp-addons 1995/03/15
+)
+("D:\Program Files (x86)\CTEX\MiKTeX\tex\latex\fp\fp-snap.sty"
+Package: fp-snap 1995/04/05
+)
+("D:\Program Files (x86)\CTEX\MiKTeX\tex\latex\fp\fp-exp.sty"
+Package: fp-exp 1995/04/03
+)
+("D:\Program Files (x86)\CTEX\MiKTeX\tex\latex\fp\fp-trigo.sty"
+Package: fp-trigo 1995/04/14
+)
+("D:\Program Files (x86)\CTEX\MiKTeX\tex\latex\fp\fp-pas.sty"
+Package: fp-pas 1994/08/29
+)
+("D:\Program Files (x86)\CTEX\MiKTeX\tex\latex\fp\fp-random.sty"
+Package: fp-random 1995/02/23
+\FPseed=\count131
+)
+("D:\Program Files (x86)\CTEX\MiKTeX\tex\latex\fp\fp-eqn.sty"
+Package: fp-eqn 1995/04/03
+)
+("D:\Program Files (x86)\CTEX\MiKTeX\tex\latex\fp\fp-upn.sty"
+Package: fp-upn 1996/10/21
+)
+("D:\Program Files (x86)\CTEX\MiKTeX\tex\latex\fp\fp-eval.sty"
+Package: fp-eval 1995/04/03
+))
+\diagbox@boxa=\box58
+\diagbox@boxb=\box59
+\diagbox@boxm=\box60
+\diagbox@wd=\dimen131
+\diagbox@ht=\dimen132
+\diagbox@sepl=\dimen133
+\diagbox@sepr=\dimen134
+)
+\mygraphic=\box61
 
 <head.jpg, id=1, 451.6875pt x 451.6875pt>
 File: head.jpg Graphic file (type jpg)
  <use head.jpg>
-Package pdftex.def Info: head.jpg used on input line 27.
+Package pdftex.def Info: head.jpg used on input line 32.
 (pdftex.def)             Requested size: 46.97025pt x 46.97505pt.
-\c@local=\count120
-\c@defi=\count121
-\c@theo=\count122
+\c@local=\count132
+\c@defi=\count133
+\c@theo=\count134
 
 ("F:\研究生毕设\work-of-master-s-degree\draft\校庆报告 李荣\校庆�
-�告 tex模板.aux")
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
+�告 tex模板.aux"
 
-("D:\Program Files (x86)\CTEX\MiKTeX\tex\context\base\supp-pdf.mkii"
+LaTeX Warning: Label `equ:b' multiply defined.
+
+)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+ ("D:\Program Files (x86)\CTEX\MiKTeX\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count123
-\scratchdimen=\dimen127
-\scratchbox=\box58
-\nofMPsegments=\count124
-\nofMParguments=\count125
-\everyMPshowfont=\toks25
-\MPscratchCnt=\count126
-\MPscratchDim=\dimen128
-\MPnumerator=\count127
-\makeMPintoPDFobject=\count128
-\everyMPtoPDFconversion=\toks26
+\scratchcounter=\count135
+\scratchdimen=\dimen135
+\scratchbox=\box62
+\nofMPsegments=\count136
+\nofMParguments=\count137
+\everyMPshowfont=\toks27
+\MPscratchCnt=\count138
+\MPscratchDim=\dimen136
+\MPnumerator=\count139
+\makeMPintoPDFobject=\count140
+\everyMPtoPDFconversion=\toks28
 ) ("D:\Program Files (x86)\CTEX\CTeX\tex\latex\CJK\GB\c19hei.fd")
 (\ziti{B}->gbkhei)
 Warning: font `bs' not found, trying alternative font `hei'
 (\ziti{E}->gbkhei)
-LaTeX Font Info:    Try loading font information for U+msa on input line 63.
+LaTeX Font Info:    Try loading font information for U+msa on input line 80.
 
 ("D:\Program Files (x86)\CTEX\MiKTeX\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 63.
+LaTeX Font Info:    Try loading font information for U+msb on input line 80.
 
 ("D:\Program Files (x86)\CTEX\MiKTeX\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 63.
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 80.
 
 ("D:\Program Files (x86)\CTEX\MiKTeX\tex\latex\jknappen\ursfs.fd"
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-LaTeX Font Info:    Try loading font information for U+lasy on input line 63.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 80.
 
 ("D:\Program Files (x86)\CTEX\MiKTeX\tex\latex\base\ulasy.fd"
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
+Loading punctuation table gbksong.tbl
 
 LaTeX Font Warning: Font shape `U/bbold/m/n' in size <5> not available
-(Font)              size <6> substituted on input line 67.
+(Font)              size <6> substituted on input line 94.
 
-Loading punctuation table gbksong.tbl
-Underfull \hbox (badness 10000) in paragraph at lines 81--87
+
+Underfull \hbox (badness 10000) in paragraph at lines 94--100
 
  []
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 93.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 106.
+
 ("D:\Program Files (x86)\CTEX\MiKTeX\tex\latex\base\omscmr.fd"
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/bx/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/b/n' tried instead on input line 93.
+(Font)              Font shape `OMS/cmsy/b/n' tried instead on input line 106.
  [1
 Non-PDF special ignored!{D:/Program Files (x86)/CTEX/UserData/pdftex/config/pdf
 tex.map{Unicode.sfd}{UGBK.sfd}}
 
  <F:/研究生毕设/work-of-master-s-degree/draft/校庆报告 李荣/head.jpg
 >]
-Underfull \hbox (badness 10000) in paragraph at lines 100--101
-[]\gbksong37-10.5  \gbksong58-10.5 � \gbksong60-10.5 � \gbksong46-10.5 � \gbks
-ong64-10.5 � \gbksong55-10.5 � \gbksong62-10.5 ^ \gbksong40-10.5  \gbksong51-1
-0.5  \gbksong60-10.5 . \gbksong55-10.5 � \gbksong47-10.5 � \gbksong58-10.5 � \
-gbksong55-10.5   \gbksong46-10.5 � \gbksong45-10.5 O \gbksong56-10.5 � \gbksong
-44-10.5 �
+Underfull \hbox (badness 10000) in paragraph at lines 113--114
+[]\gbksong37-10.5  \gbksong58-10.5 � \gbksong41-10.5 u \gbksong59-10.5 y \gbks
+ong60-10.5 � \gbksong48-10.5 �\OT1/cmr/m/n/10 NTM\gbksong60-10.5 � \gbksong59-1
+0.5 S \gbksong45-10.5 \ \gbksong41-10.5 { \gbksong26-10.5 �| \gbksong38-10.5 � 
+\gbksong41-10.5 { \gbksong40-10.5  \gbksong56-10.5 � \gbksong41-10.5 {
  []
 
+[2] <new_task.jpg, id=74, 372.64218pt x 143.03438pt>
+File: new_task.jpg Graphic file (type jpg)
+ <use new_task.jpg>
+Package pdftex.def Info: new_task.jpg used on input line 140.
+(pdftex.def)             Requested size: 252.94499pt x 97.08966pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 109--110
-[]\gbksong58-10.5 � \gbksong49-10.5 
- \gbksong46-10.5 ) �\OT1/cmr/m/n/10 NTM\gbksong37-10.5 � \gbksong51-10.5 U \gbk
-song37-10.5 � \gbksong60-10.5 1 \gbksong43-10.5 � \gbksong60-10.5 � \gbksong48-
-10.5 � \gbksong51-10.5 J \gbksong40-10.5 � \gbksong39-10.5 � \gbksong40-10.5  
-\gbksong58-10.5 �
+Overfull \hbox (5.0pt too wide) in paragraph at lines 140--141
+ [][] 
  []
 
-[2] <dnc1.jpg, id=72, 687.56876pt x 359.3425pt>
-File: dnc1.jpg Graphic file (type jpg)
- <use dnc1.jpg>
-Package pdftex.def Info: dnc1.jpg used on input line 132.
-(pdftex.def)             Requested size: 289.07999pt x 151.08182pt.
+[3 <F:/研究生毕设/work-of-master-s-degree/draft/校庆报告 李荣/new_ta
+sk.jpg>] <ntm_architecture.png, id=81, 994.71625pt x 733.74126pt>
+File: ntm_architecture.png Graphic file (type png)
 
-<task.jpg, id=73, 500.62032pt x 143.03438pt>
-File: task.jpg Graphic file (type jpg)
- <use task.jpg>
-Package pdftex.def Info: task.jpg used on input line 141.
-(pdftex.def)             Requested size: 289.07999pt x 82.59769pt.
+<use ntm_architecture.png>
+Package pdftex.def Info: ntm_architecture.png used on input line 173.
+(pdftex.def)             Requested size: 252.94499pt x 186.58093pt.
 LaTeX Font Info:    Font shape `OMS/cmr/bx/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/b/n' tried instead on input line 160.
+(Font)              Font shape `OMS/cmsy/b/n' tried instead on input line 180.
+ [4] Loading punctuation table gbkhei.tbl [5 <F:/研究生毕设/work-of-master
+-s-degree/draft/校庆报告 李荣/ntm_architecture.png>] <copy.png, id=97, 46
+2.528pt x 346.896pt>
+File: copy.png Graphic file (type png)
+ <use copy.png>
+Package pdftex.def Info: copy.png used on input line 298.
+(pdftex.def)             Requested size: 166.94463pt x 125.21063pt.
 
-Underfull \hbox (badness 6876) in paragraph at lines 161--162
-[]\OT1/cmr/m/n/10 DNC\gbksong55-10.5 � \gbksong47-10.5 � \gbksong58-10.5 � \gbk
-song40-10.5  \gbksong55-10.5   \gbksong46-10.5 � \gbksong58-10.5  \gbksong49-
-10.5 � \gbksong51-10.5  \gbksong60-10.5 . \gbksong26-10.5 �| \gbksong63-10.5 3
- \gbksong60-10.5 � \gbksong48-10.5 � \gbksong51-10.5  \gbksong60-10.5 . \gbkso
-ng40-10.5 
+<add.png, id=98, 462.528pt x 346.896pt>
+File: add.png Graphic file (type png)
+ <use add.png>
+Package pdftex.def Info: add.png used on input line 304.
+(pdftex.def)             Requested size: 166.94463pt x 125.21063pt.
+
+<multip.png, id=99, 462.528pt x 346.896pt>
+File: multip.png Graphic file (type png)
+ <use multip.png>
+Package pdftex.def Info: multip.png used on input line 310.
+(pdftex.def)             Requested size: 166.94463pt x 125.21063pt.
+
+Overfull \hbox (19.38828pt too wide) in paragraph at lines 298--311
+[][] [] [] 
  []
 
-[3] [4 <F:/研究生毕设/work-of-master-s-degree/draft/校庆报告 李荣/dn
-c1.jpg> <F:/研究生毕设/work-of-master-s-degree/draft/校庆报告 李荣/t
-ask.jpg>]
+[6] <memory_of_copy.png, id=104, 462.528pt x 346.896pt>
+File: memory_of_copy.png Graphic file (type png)
 
-LaTeX Warning: Citation `Wu' on page 5 undefined on input line 193.
+<use memory_of_copy.png>
+Package pdftex.def Info: memory_of_copy.png used on input line 325.
+(pdftex.def)             Requested size: 227.64894pt x 170.73744pt.
+ <memory_of_add.png, id=105, 462.528pt x 346.896pt>
+File: memory_of_add.png Graphic file (type png)
 
-
-LaTeX Warning: Citation `Xuan' on page 5 undefined on input line 193.
-
+<use memory_of_add.png>
+Package pdftex.def Info: memory_of_add.png used on input line 331.
+(pdftex.def)             Requested size: 227.64894pt x 170.73744pt.
 
 ("F:\研究生毕设\work-of-master-s-degree\draft\校庆报告 李荣\校庆�
 �告 tex模板.bbl"
 ("D:\Program Files (x86)\CTEX\CTeX\tex\latex\CJK\GB\c19kai.fd")
-(\ziti{C}->gbkkai) [5]) [6]
+(\ziti{C}->gbkkai) [7] [8 <F:/研究生毕设/work-of-master-s-degree/draft/校
+庆报告 李荣/copy.png> <F:/研究生毕设/work-of-master-s-degree/draft/�
+�庆报告 李荣/add.png> <F:/研究生毕设/work-of-master-s-degree/draft/�
+�庆报告 李荣/multip.png>]) [9 <F:/研究生毕设/work-of-master-s-degree/
+draft/校庆报告 李荣/memory_of_copy.png> <F:/研究生毕设/work-of-maste
+r-s-degree/draft/校庆报告 李荣/memory_of_add.png>]
 ("F:\研究生毕设\work-of-master-s-degree\draft\校庆报告 李荣\校庆�
 �告 tex模板.aux")
 
@@ -410,72 +518,77 @@ LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
 
 
-LaTeX Warning: There were undefined references.
+LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 3496 strings out of 495354
- 44969 string characters out of 3182740
- 124850 words of memory out of 3000000
- 6510 multiletter control sequences out of 15000+200000
- 47960 words of font info for 179 fonts, out of 3000000 for 9000
+ 4689 strings out of 495354
+ 60558 string characters out of 3182740
+ 162962 words of memory out of 3000000
+ 7640 multiletter control sequences out of 15000+200000
+ 49146 words of font info for 183 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 29i,10n,43p,683b,612s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 32i,15n,43p,1042b,629s stack positions out of 5000i,500n,10000p,200000b,50000s
 <D:/Program Files (x86)/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/WINDO
 WS/Fonts/simhei.ttf><C:/WINDOWS/Fonts/simhei.ttf><C:/WINDOWS/Fonts/simhei.ttf><
 C:/WINDOWS/Fonts/simhei.ttf><C:/WINDOWS/Fonts/simhei.ttf><C:/WINDOWS/Fonts/simh
-ei.ttf><C:/WINDOWS/Fonts/simhei.ttf><C:/WINDOWS/Fonts/simhei.ttf><D:/Program Fi
+ei.ttf><C:/WINDOWS/Fonts/simhei.ttf><C:/WINDOWS/Fonts/simhei.ttf><C:/WINDOWS/Fo
+nts/simhei.ttf><C:/WINDOWS/Fonts/simhei.ttf><C:/WINDOWS/Fonts/simhei.ttf><C:/WI
+NDOWS/Fonts/simhei.ttf><C:/WINDOWS/Fonts/simhei.ttf><D:/Program Files (x86)/CTE
+X/CTeX/fonts/truetype/chinese/simsun.ttf><D:/Program Files (x86)/CTEX/CTeX/font
+s/truetype/chinese/simsun.ttf><D:/Program Files (x86)/CTEX/CTeX/fonts/truetype/
+chinese/simsun.ttf><D:/Program Files (x86)/CTEX/CTeX/fonts/truetype/chinese/sim
+sun.ttf><D:/Program Files (x86)/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><D:
+/Program Files (x86)/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><D:/Program Fi
 les (x86)/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><D:/Program Files (x86)/C
 TEX/CTeX/fonts/truetype/chinese/simsun.ttf><D:/Program Files (x86)/CTEX/CTeX/fo
 nts/truetype/chinese/simsun.ttf><D:/Program Files (x86)/CTEX/CTeX/fonts/truetyp
-e/chinese/simsun.ttf><C:/WINDOWS/Fonts/simhei.ttf><C:/WINDOWS/Fonts/simhei.ttf>
-<D:/Program Files (x86)/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><D:/Program
- Files (x86)/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><D:/Program Files (x86
+e/chinese/simsun.ttf><D:/Program Files (x86)/CTEX/CTeX/fonts/truetype/chinese/s
+imsun.ttf><D:/Program Files (x86)/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><
+C:/WINDOWS/Fonts/simhei.ttf><C:/WINDOWS/Fonts/simhei.ttf><D:/Program Files (x86
 )/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><D:/Program Files (x86)/CTEX/CTeX
 /fonts/truetype/chinese/simsun.ttf><D:/Program Files (x86)/CTEX/CTeX/fonts/true
 type/chinese/simsun.ttf><D:/Program Files (x86)/CTEX/CTeX/fonts/truetype/chines
 e/simsun.ttf><D:/Program Files (x86)/CTEX/CTeX/fonts/truetype/chinese/simsun.tt
-f><D:/Program Files (x86)/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/WINDO
-WS/Fonts/simhei.ttf><C:/WINDOWS/Fonts/simhei.ttf><D:/Program Files (x86)/CTEX/C
-TeX/fonts/truetype/chinese/simsun.ttf><D:/Program Files (x86)/CTEX/CTeX/fonts/t
-ruetype/chinese/simsun.ttf><D:/Program Files (x86)/CTEX/CTeX/fonts/truetype/chi
-nese/simsun.ttf><D:/Program Files (x86)/CTEX/CTeX/fonts/truetype/chinese/simsun
-.ttf><D:/Program Files (x86)/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><D:/Pr
-ogram Files (x86)/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><D:/Program Files
- (x86)/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><D:/Program Files (x86)/CTEX
-/CTeX/fonts/truetype/chinese/simsun.ttf><D:/Program Files (x86)/CTEX/CTeX/fonts
-/truetype/chinese/simsun.ttf><D:/Program Files (x86)/CTEX/CTeX/fonts/truetype/c
-hinese/simsun.ttf><C:/WINDOWS/Fonts/simhei.ttf><C:/WINDOWS/Fonts/simhei.ttf><C:
-/WINDOWS/Fonts/simhei.ttf><C:/WINDOWS/Fonts/simhei.ttf><C:/WINDOWS/Fonts/simhei
+f><D:/Program Files (x86)/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><D:/Progr
+am Files (x86)/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><D:/Program Files (x
+86)/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><D:/Program Files (x86)/CTEX/CT
+eX/fonts/truetype/chinese/simsun.ttf><D:/Program Files (x86)/CTEX/CTeX/fonts/tr
+uetype/chinese/simsun.ttf><C:/WINDOWS/Fonts/simhei.ttf><C:/WINDOWS/Fonts/simhei
 .ttf><C:/WINDOWS/Fonts/simhei.ttf><C:/WINDOWS/Fonts/simhei.ttf><C:/WINDOWS/Font
 s/simhei.ttf><C:/WINDOWS/Fonts/simhei.ttf><C:/WINDOWS/Fonts/simhei.ttf><C:/WIND
-OWS/Fonts/simhei.ttf><C:/WINDOWS/Fonts/simhei.ttf><D:/Program Files (x86)/CTEX/
-CTeX/fonts/truetype/chinese/simsun.ttf><D:/Program Files (x86)/CTEX/CTeX/fonts/
-truetype/chinese/simsun.ttf><D:/Program Files (x86)/CTEX/CTeX/fonts/truetype/ch
-inese/simsun.ttf><D:/Program Files (x86)/CTEX/CTeX/fonts/truetype/chinese/simsu
-n.ttf><D:/Program Files (x86)/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><D:/P
-rogram Files (x86)/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><D:/Program File
-s (x86)/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><D:/Program Files (x86)/CTE
-X/CTeX/fonts/truetype/chinese/simsun.ttf><D:/Program Files (x86)/CTEX/CTeX/font
-s/truetype/chinese/simsun.ttf><D:/Program Files (x86)/CTEX/CTeX/fonts/truetype/
-chinese/simsun.ttf><D:/Program Files (x86)/CTEX/MiKTeX/fonts/type1/public/amsfo
-nts/cm/cmbsy10.pfb><D:/Program Files (x86)/CTEX/MiKTeX/fonts/type1/public/amsfo
-nts/cm/cmbx10.pfb><D:/Program Files (x86)/CTEX/MiKTeX/fonts/type1/public/amsfon
-ts/cm/cmbx12.pfb><D:/Program Files (x86)/CTEX/MiKTeX/fonts/type1/public/amsfont
-s/cm/cmmi10.pfb><D:/Program Files (x86)/CTEX/MiKTeX/fonts/type1/public/amsfonts
-/cm/cmmi12.pfb><D:/Program Files (x86)/CTEX/MiKTeX/fonts/type1/public/amsfonts/
-cm/cmmi7.pfb><D:/Program Files (x86)/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm
-/cmr10.pfb><D:/Program Files (x86)/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/c
-mr12.pfb><D:/Program Files (x86)/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr
-7.pfb><D:/Program Files (x86)/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.p
-fb><D:/Program Files (x86)/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb>
-<D:/Program Files (x86)/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><
-D:/Program Files (x86)/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><D:
-/Program Files (x86)/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmti9.pfb><D:/P
-rogram Files (x86)/CTEX/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on "校庆报告 tex模板.pdf" (6 pages, 664711 bytes).
+OWS/Fonts/simhei.ttf><C:/WINDOWS/Fonts/simhei.ttf><C:/WINDOWS/Fonts/simhei.ttf>
+<C:/WINDOWS/Fonts/simhei.ttf><C:/WINDOWS/Fonts/simhei.ttf><D:/Program Files (x8
+6)/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><D:/Program Files (x86)/CTEX/CTe
+X/fonts/truetype/chinese/simsun.ttf><D:/Program Files (x86)/CTEX/CTeX/fonts/tru
+etype/chinese/simsun.ttf><D:/Program Files (x86)/CTEX/CTeX/fonts/truetype/chine
+se/simsun.ttf><D:/Program Files (x86)/CTEX/CTeX/fonts/truetype/chinese/simsun.t
+tf><D:/Program Files (x86)/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><D:/Prog
+ram Files (x86)/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><D:/Program Files (
+x86)/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><D:/Program Files (x86)/CTEX/C
+TeX/fonts/truetype/chinese/simsun.ttf><D:/Program Files (x86)/CTEX/CTeX/fonts/t
+ruetype/chinese/simsun.ttf><D:/Program Files (x86)/CTEX/MiKTeX/fonts/type1/publ
+ic/amsfonts/cm/cmbsy10.pfb><D:/Program Files (x86)/CTEX/MiKTeX/fonts/type1/publ
+ic/amsfonts/cm/cmbx10.pfb><D:/Program Files (x86)/CTEX/MiKTeX/fonts/type1/publi
+c/amsfonts/cm/cmbx12.pfb><D:/Program Files (x86)/CTEX/MiKTeX/fonts/type1/public
+/amsfonts/cm/cmex10.pfb><D:/Program Files (x86)/CTEX/MiKTeX/fonts/type1/public/
+amsfonts/cm/cmmi10.pfb><D:/Program Files (x86)/CTEX/MiKTeX/fonts/type1/public/a
+msfonts/cm/cmmi12.pfb><D:/Program Files (x86)/CTEX/MiKTeX/fonts/type1/public/am
+sfonts/cm/cmmi5.pfb><D:/Program Files (x86)/CTEX/MiKTeX/fonts/type1/public/amsf
+onts/cm/cmmi7.pfb><D:/Program Files (x86)/CTEX/MiKTeX/fonts/type1/public/amsfon
+ts/cm/cmr10.pfb><D:/Program Files (x86)/CTEX/MiKTeX/fonts/type1/public/amsfonts
+/cm/cmr12.pfb><D:/Program Files (x86)/CTEX/MiKTeX/fonts/type1/public/amsfonts/c
+m/cmr5.pfb><D:/Program Files (x86)/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/c
+mr7.pfb><D:/Program Files (x86)/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8
+.pfb><D:/Program Files (x86)/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pf
+b><D:/Program Files (x86)/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+><D:/Program Files (x86)/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><
+D:/Program Files (x86)/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmti9.pfb><D:
+/Program Files (x86)/CTEX/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb
+>
+Output written on "校庆报告 tex模板.pdf" (9 pages, 928738 bytes).
 PDF statistics:
- 312 PDF objects out of 1000 (max. 8388607)
+ 359 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
