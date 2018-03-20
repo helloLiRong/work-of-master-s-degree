@@ -68,20 +68,6 @@ Sepp Hochreiter and J{\"u}rgen Schmidhuber.
 \newblock Long short-term memory.
 \newblock {\em Neural computation}, 9(8):1735--1780, 1997.
 
-\bibitem{amodei2016deep}
-Dario Amodei, Sundaram Ananthanarayanan, Rishita Anubhai, Jingliang Bai, Eric
-  Battenberg, Carl Case, Jared Casper, Bryan Catanzaro, Qiang Cheng, Guoliang
-  Chen, et~al.
-\newblock Deep speech 2: End-to-end speech recognition in english and mandarin.
-\newblock In {\em International Conference on Machine Learning}, pages
-  173--182, 2016.
-
-\bibitem{bahdanau2014neural}
-Dzmitry Bahdanau, Kyunghyun Cho, and Yoshua Bengio.
-\newblock Neural machine translation by jointly learning to align and
-  translate.
-\newblock {\em arXiv preprint arXiv:1409.0473}, 2014.
-
 \bibitem{bengio2009curriculum}
 Yoshua Bengio, J{\'e}r{\^o}me Louradour, Ronan Collobert, and Jason Weston.
 \newblock Curriculum learning.
